@@ -1,0 +1,68 @@
+name: Deploy Pet Barn queue
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'pets/queue/**'
+  workflow_dispatch:
+
+concurrency:
+  group: petbarn-deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install script dependencies
+        run: npm ci || npm install
+
+      - name: Install scene-template dependencies
+        working-directory: scene-template
+        run: npm ci || npm install
+
+      - name: Detect queue items
+        id: queue
+        run: |
+          ids=$(find pets/queue -mindepth 2 -maxdepth 2 -name meta.json -printf '%h\n' 2>/dev/null | xargs -I{} basename {} | sort | tr '\n' ' ')
+          echo "ids=$ids" >> "$GITHUB_OUTPUT"
+          if [ -z "${ids// }" ]; then
+            echo "empty=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "empty=false" >> "$GITHUB_OUTPUT"
+          fi
+          echo "Queue: $ids"
+
+      - name: Process queue
+        if: steps.queue.outputs.empty != 'true'
+        env:
+          DCL_PRIVATE_KEY: ${{ secrets.DCL_PRIVATE_KEY }}
+          PETBARN_WORLD_NAME: petbarn.dcl.eth
+          PETBARN_TARGET_CONTENT: https://worlds-content-server.decentraland.org
+        run: npm run process-queue
+
+      - name: Commit catalog + archive
+        if: steps.queue.outputs.empty != 'true'
+        run: |
+          git config user.name "petbarn-bot"
+          git config user.email "petbarn-bot@users.noreply.github.com"
+          git add catalog.json pets/archive pets/queue
+          if git diff --staged --quiet; then
+            echo "No catalog changes to commit"
+          else
+            git commit -m "chore(petbarn): deploy queue → catalog"
+            git push
+          fi

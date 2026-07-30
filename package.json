@@ -1,0 +1,21 @@
+{
+  "name": "petbarn",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Decentraland Worlds pet marketplace storage (catalog + multi-scene deploy)",
+  "scripts": {
+    "extract-anims": "node scripts/extract-anims.mjs",
+    "next-parcel": "node scripts/next-parcel.mjs",
+    "build-pet-scene": "node scripts/build-pet-scene.mjs",
+    "deploy-queue-item": "node scripts/deploy-queue-item.mjs",
+    "process-queue": "node scripts/process-queue.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@dcl/hashing": "^1.2.0",
+    "@gltf-transform/core": "^4.4.2"
+  }
+}

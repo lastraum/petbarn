@@ -1,0 +1,103 @@
+# petbarn
+
+Public catalog + multi-scene Worlds pipeline for the **Pet Barn** marketplace (`petbarn.dcl.eth`).
+
+Sibling of the Three.js client:
+
+```text
+sdk7/
+  ThreejsClient/   # client UI + CF Worker dispatch
+  petbarn/         # this repo
+```
+
+## What this repo does
+
+| Piece | Role |
+|---|---|
+| `catalog.json` | Shop index (clients poll; **thumbnails + metadata only**) |
+| `pets/queue/` | Incoming publish jobs (Worker writes here) |
+| `scene-template/` | Minimal SDK7 scene shell per pet |
+| `.github/workflows/deploy-pet.yml` | Auto multi-scene deploy → Worlds |
+
+**1 pet = 1 scene = 1 parcel.** GLB ≤ 2 MB, thumbnail ≤ 500 KB.
+
+Clients **never** bulk-download GLBs from the shop. They load thumbs from `thumbnailCid`, and download `glbCid` only when the user hits **Add**.
+
+## Catalog URL (clients)
+
+```text
+https://raw.githubusercontent.com/lastraum/petbarn/main/catalog.json
+```
+
+(Adjust owner/repo if different.)
+
+## Local layout
+
+```text
+petbarn/
+  catalog.json
+  pets/queue/<id>/{pet.glb,thumb.webp,meta.json}
+  pets/archive/
+  scene-template/
+  scripts/
+  .github/workflows/deploy-pet.yml
+```
+
+## Secrets (GitHub Actions)
+
+| Secret | Purpose |
+|---|---|
+| `DCL_PRIVATE_KEY` | Operator wallet private key with deploy rights on `petbarn.dcl.eth` |
+
+Optional env in workflow:
+
+| Var | Default |
+|---|---|
+| `PETBARN_WORLD_NAME` | `petbarn.dcl.eth` |
+| `PETBARN_TARGET_CONTENT` | `https://worlds-content-server.decentraland.org` |
+
+## Manual smoke test
+
+1. Put files under `pets/queue/test-pet-001/`:
+   - `pet.glb` (≤ 2 MB)
+   - `thumb.webp` (≤ 500 KB)
+   - `meta.json` (see below)
+2. Push to `main` (or run `npm run process-queue` with `DCL_PRIVATE_KEY` set).
+3. Confirm `catalog.json` gains an entry with `glbCid` + `thumbnailCid`.
+4. Fetch:
+   - `{contentBaseUrl}{thumbnailCid}`
+   - `{contentBaseUrl}{glbCid}`
+
+### `meta.json` example
+
+```json
+{
+  "id": "test-pet-001",
+  "petName": "Spark",
+  "creatorName": "lastraum",
+  "type": "walking",
+  "submittedAt": "2026-07-30T12:00:00.000Z",
+  "sizeBytes": 100000,
+  "thumbnailSizeBytes": 40000
+}
+```
+
+## Kill switches
+
+- Disable the **deploy-pet** workflow
+- Revoke / rotate `DCL_PRIVATE_KEY`
+- Stop the CF publish Worker in the client repo (stops new queue writes)
+
+## Scripts
+
+```bash
+npm install
+npm run process-queue          # process all pets/queue/*/meta.json
+npm run deploy-queue-item -- <id>
+```
+
+## Limits
+
+- GLB: **2 MB**
+- Thumbnail: **500 KB**
+- World storage budget depends on NAME / LAND / MANA holdings (~100 MB base per NAME)

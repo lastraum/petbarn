@@ -1,0 +1,42 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "Pet Barn Slot",
+    "description": "Storage slot for one marketplace pet",
+    "navmapThumbnail": "models/thumb.webp"
+  },
+  "owner": "Pet Barn",
+  "contact": {
+    "name": "Pet Barn",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": ["petbarn"],
+  "scene": {
+    "parcels": ["0,0"],
+    "base": "0,0"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn-0",
+      "default": true,
+      "position": { "x": 8, "y": 0, "z": 8 },
+      "cameraTarget": { "x": 8, "y": 1, "z": 16 }
+    }
+  ],
+  "worldConfiguration": {
+    "name": "petbarn.dcl.eth",
+    "placesConfig": {
+      "optOut": true
+    }
+  },
+  "featureToggles": {},
+  "petBarn": {
+    "id": "",
+    "petName": "",
+    "creatorName": "",
+    "type": "walking",
+    "animationCount": 0
+  }
+}
