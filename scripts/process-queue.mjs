@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Process all pets/queue/*/meta.json entries serially.
+ * Process all pets/queue/<id>/meta.json entries serially.
  * Usage: node scripts/process-queue.mjs
  */
 import fs from 'node:fs'
