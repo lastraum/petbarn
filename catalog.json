@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-07-30T20:03:08.844Z",
+  "updatedAt": "2026-07-30T20:12:20.717Z",
   "nextParcel": {
-    "x": -149,
+    "x": -148,
     "y": -150
   },
   "pets": [
@@ -24,6 +24,24 @@
       "thumbnailSizeBytes": 134255,
       "submittedAt": "2026-07-30T19:58:43.627Z",
       "deployedAt": "2026-07-30T20:03:08.844Z",
+      "wallet": "0x10e7d9e27a2b6cd8a2e879b3213fd7b1e55eb63d"
+    },
+    {
+      "id": "20260730-bison-okvn",
+      "petName": "Bison",
+      "creatorName": "Kirzoz",
+      "type": "walking",
+      "animationCount": 0,
+      "clipNames": [],
+      "parcel": "-149,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeic5f5rq2bwqcrr6kc2spjnnctgwih6ziupcikja7ukxh5lw2etuiu",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreiabmjrehcz7tzalm3di3ng5dznyjgqvf2buj7kmryuazvhhvnrktu",
+      "sizeBytes": 432800,
+      "thumbnailSizeBytes": 7590,
+      "submittedAt": "2026-07-30T20:11:24.334Z",
+      "deployedAt": "2026-07-30T20:12:20.717Z",
       "wallet": "0x10e7d9e27a2b6cd8a2e879b3213fd7b1e55eb63d"
     }
   ]
