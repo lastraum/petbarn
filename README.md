@@ -21,6 +21,18 @@ sdk7/
 
 **1 pet = 1 scene = 1 parcel.** GLB ≤ 2 MB, thumbnail ≤ 500 KB.
 
+### Parcel grid
+
+Inclusive bounds: **`[-150, 150] × [-150, 150]`** (301×301 slots).
+
+| | |
+|---|---|
+| First slot | `-150,-150` |
+| Fill order | `x` left → right, then `y` up one row |
+| Example | `-150,-150` → `-149,-150` → … → `150,-150` → `-150,-149` → … → `150,150` |
+
+When the grid is full, deploy fails with a clear error (no wrap outside bounds).
+
 Clients **never** bulk-download GLBs from the shop. They load thumbs from `thumbnailCid`, and download `glbCid` only when the user hits **Add**.
 
 ## Catalog URL (clients)

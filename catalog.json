@@ -3,6 +3,6 @@
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
   "updatedAt": "2026-07-30T00:00:00.000Z",
-  "nextParcel": { "x": 0, "y": 0 },
+  "nextParcel": { "x": -150, "y": -150 },
   "pets": []
 }

@@ -27,7 +27,7 @@ import {
   worldName
 } from './lib.mjs'
 import { buildPetScene } from './build-pet-scene.mjs'
-import { advanceNextParcel, computeNextParcel } from './next-parcel.mjs'
+import { computeNextParcel, nextFreeAfter, parcelString } from './next-parcel.mjs'
 
 async function hashFile(filePath) {
   const buf = fs.readFileSync(filePath)
@@ -78,7 +78,13 @@ export async function deployQueueItem(id, options = {}) {
     return { skipped: true, id }
   }
 
-  const parcel = computeNextParcel(catalog)
+  let parcel
+  try {
+    parcel = computeNextParcel(catalog)
+  } catch (err) {
+    throw new Error(err instanceof Error ? err.message : String(err))
+  }
+  console.log(`[petbarn] Allocating parcel ${parcelString(parcel)} for ${id}`)
   const workDir = path.join(WORK_ROOT, id)
   const built = await buildPetScene(id, parcel, workDir)
 
@@ -135,7 +141,8 @@ export async function deployQueueItem(id, options = {}) {
 
   const nextCatalog = readCatalog()
   nextCatalog.pets = [...(nextCatalog.pets || []).filter((p) => p.id !== entry.id), entry]
-  nextCatalog.nextParcel = advanceNextParcel(parcel)
+  // After adding this pet, point at the next free cell within [-150,150]²
+  nextCatalog.nextParcel = nextFreeAfter(parcel, nextCatalog)
   nextCatalog.updatedAt = now
   nextCatalog.world = worldName()
   nextCatalog.contentBaseUrl =
