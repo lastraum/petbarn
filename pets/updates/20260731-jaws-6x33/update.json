@@ -1,0 +1,16 @@
+{
+  "updatesListing": "20260731-jaws-6x33",
+  "petName": "Jaws",
+  "creatorName": "AwedJob",
+  "type": "flying",
+  "sizeBytes": 322660,
+  "sha256": "177dd52cfda64b0ded01b863decfdad3b9dbe7decce57d89590c77c6eb7f6660",
+  "clipNames": [
+    "Fly",
+    "FlyFast",
+    "Bite"
+  ],
+  "animationCount": 3,
+  "note": "Bakes 180-degree facing into the model (was backwards in D3JS). Clips unchanged.",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+}
