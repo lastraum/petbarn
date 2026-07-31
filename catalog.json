@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-07-31T03:41:00.607Z",
+  "updatedAt": "2026-07-31T03:46:47.195Z",
   "nextParcel": {
-    "x": -147,
+    "x": -146,
     "y": -150
   },
   "pets": [
@@ -66,6 +66,29 @@
       "thumbnailSizeBytes": 356105,
       "submittedAt": "2026-07-31T03:40:09.275Z",
       "deployedAt": "2026-07-31T03:41:00.607Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260731-parrot-m7st",
+      "petName": "Parrot",
+      "creatorName": "AwedJob",
+      "type": "flying",
+      "animationCount": 4,
+      "clipNames": [
+        "Fly",
+        "Hover",
+        "Perch",
+        "AFK"
+      ],
+      "parcel": "-147,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeiguujynvnyqjpbfxhnax4hgkym57frmyvo6tbsfg7plhwxg4yybou",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafybeigzvjzcylz2xv4c7wiuj2qg2qix6m5o3klctnukq43y65hvavcxoq",
+      "sizeBytes": 599880,
+      "thumbnailSizeBytes": 313608,
+      "submittedAt": "2026-07-31T03:46:02.368Z",
+      "deployedAt": "2026-07-31T03:46:47.195Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
