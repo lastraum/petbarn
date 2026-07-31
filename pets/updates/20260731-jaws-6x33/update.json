@@ -1,6 +1,6 @@
 {
   "updatesListing": "20260731-jaws-6x33",
-  "petName": "Jaws",
+  "petName": "Shark",
   "creatorName": "AwedJob",
   "type": "flying",
   "sizeBytes": 322660,
@@ -11,6 +11,6 @@
     "Bite"
   ],
   "animationCount": 3,
-  "note": "Bakes 180-degree facing into the model (was backwards in D3JS). Clips unchanged.",
+  "note": "Bakes 180-degree facing into the model (was backwards in D3JS). Clips unchanged. ALSO: rename listing petName from 'Jaws' to 'Shark' (copyright caution).",
   "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
 }
