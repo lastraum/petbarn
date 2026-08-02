@@ -99,6 +99,32 @@ export async function buildPetScene(id, parcel, outDir) {
   }
 }
 
+/**
+ * Materialize an empty "retired slot" scene for a freed parcel — deployed over
+ * a deleted pet's scene so its assets stop being referenced by the world.
+ */
+export function buildTombstoneScene(parcel, outDir) {
+  const parcelStr = parcelString(parcel)
+  rmrf(outDir)
+  ensureDir(outDir)
+  copyTree(TEMPLATE_DIR, outDir, new Set(['node_modules', 'bin', '.decentraland']))
+
+  const scenePath = path.join(outDir, 'scene.json')
+  const scene = JSON.parse(fs.readFileSync(scenePath, 'utf8'))
+  scene.display = scene.display || {}
+  scene.display.title = 'Pet Barn — free slot'
+  scene.display.description = 'Retired Pet Barn slot (available for the next pet)'
+  delete scene.display.navmapThumbnail
+  scene.scene = { parcels: [parcelStr], base: parcelStr }
+  scene.worldConfiguration = {
+    name: worldName(),
+    placesConfig: { optOut: true }
+  }
+  delete scene.petBarn
+  fs.writeFileSync(scenePath, JSON.stringify(scene, null, 2) + '\n', 'utf8')
+  return { outDir, parcel: parcelStr }
+}
+
 function copyTree(src, dest, skipNames) {
   ensureDir(dest)
   for (const entry of fs.readdirSync(src, { withFileTypes: true })) {

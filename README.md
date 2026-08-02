@@ -35,6 +35,28 @@ When the grid is full, deploy fails with a clear error (no wrap outside bounds).
 
 Clients **never** bulk-download GLBs from the shop. They load thumbs from `thumbnailCid`, and download `glbCid` only when the user hits **Add**.
 
+## Update / delete actions
+
+Queue items may carry `action: "update" | "delete"` plus `targetId` (an existing
+listing id). Both require `meta.auth` — the client wallet signs (personal_sign):
+
+```text
+petbarn:v1:<action>:<targetId>:<glbSha256|none>:<timestampMs>
+```
+
+The deploy Action verifies the signature recovers to the listing's `wallet`
+(or an address in the `PETBARN_ADMIN_WALLETS` env, comma-separated) and that
+the timestamp is within `PETBARN_AUTH_WINDOW_MS` (default 1h). For updates the
+signed `glbSha256` must match the uploaded `pet.glb`, binding signature to
+content.
+
+- **update** — redeploys the listing's existing parcel with the new GLB/thumb
+  and rewrites the catalog entry in place (same id/parcel/wallet/submittedAt;
+  fresh CIDs, clip data, `deployedAt`, `updatedAt`; `petName` may change).
+- **delete** — deploys an empty tombstone scene over the parcel, removes the
+  catalog entry, and points `nextParcel` at the freed cell so holes refill
+  first (`computeNextParcel`'s full scan picks up any others).
+
 ## Catalog URL (clients)
 
 ```text
