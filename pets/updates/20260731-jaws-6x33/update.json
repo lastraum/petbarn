@@ -1,0 +1,17 @@
+{
+  "updatesListing": "20260731-jaws-6x33",
+  "petName": "Shark",
+  "creatorName": "AwedJob",
+  "type": "flying",
+  "sizeBytes": 324788,
+  "sha256": "12759dcaaa2b12c2b76aa7449e37a1966052eb1369a11d1ed1addfc3c5fce3d7",
+  "clipNames": [
+    "Bite",
+    "Fly",
+    "FlyFast",
+    "Hover"
+  ],
+  "animationCount": 4,
+  "note": "Bakes 180-degree facing into the model (was backwards in D3JS). Adds a Hover track (swim-in-place) so the idle/sit/afk bands resolve via aliases - without it the client's first-clip fallback looped the Bite lunge at idle. Bite's 4m root-bone lunge is stripped (bites in place). ALSO: rename listing petName from 'Jaws' to 'Shark' (copyright caution).",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+}

@@ -1,0 +1,19 @@
+{
+  "updatesListing": "20260731-cat-x74c",
+  "petName": "Cat",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 1934616,
+  "sha256": "0ba077335342e62f2cb152fd22ede2809b60ed8f28a634cb18bfb11760ca9cea",
+  "clipNames": [
+    "Idle",
+    "Walk",
+    "Trot",
+    "Run",
+    "Sit",
+    "AFK"
+  ],
+  "animationCount": 6,
+  "note": "Bakes 180-degree facing into the model (was backwards in D3JS) and adds a distinct AFK track (Idle02 grooming fidget) - now 6 fully distinct behavior clips.",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+}

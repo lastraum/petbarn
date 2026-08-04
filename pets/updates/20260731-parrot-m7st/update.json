@@ -1,0 +1,17 @@
+{
+  "updatesListing": "20260731-parrot-m7st",
+  "petName": "Parrot",
+  "creatorName": "AwedJob",
+  "type": "flying",
+  "sizeBytes": 599900,
+  "sha256": "6fa6c109a60ff256cc9398c2891dbe3456fc89b6f08f47e20dbb787b68c37faf",
+  "clipNames": [
+    "Hover",
+    "Fly",
+    "Perch",
+    "AFK"
+  ],
+  "animationCount": 4,
+  "note": "Bakes 180-degree facing into the model (was backwards in D3JS). Clips unchanged.",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+}
