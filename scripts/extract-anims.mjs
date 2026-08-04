@@ -6,9 +6,13 @@
  */
 import fs from 'node:fs'
 import { NodeIO } from '@gltf-transform/core'
+import { KHRONOS_EXTENSIONS } from '@gltf-transform/extensions'
 
 export async function extractAnimsFromGlb(glbPath) {
-  const io = new NodeIO()
+  // Register the Khronos extension set so spec-compliant GLBs (quantized,
+  // texture-transformed, etc.) don't crash the deploy Action with
+  // "Missing required extension".
+  const io = new NodeIO().registerExtensions(KHRONOS_EXTENSIONS)
   const bytes = fs.readFileSync(glbPath)
   const doc = await io.readBinary(new Uint8Array(bytes))
   const root = doc.getRoot()
