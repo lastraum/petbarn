@@ -17,11 +17,22 @@
 import { keccak_256 } from '@noble/hashes/sha3'
 import { secp256k1 } from '@noble/curves/secp256k1'
 
-/** Freshness window (ms) — generous because CI may pick the item up late. */
-export const AUTH_WINDOW_MS = Number(process.env.PETBARN_AUTH_WINDOW_MS || 60 * 60 * 1000)
+/**
+ * Freshness window (ms) — wider than the Cloudflare Worker (default 10 min) so a
+ * valid submit can wait in pets/queue until CI runs. Override with
+ * PETBARN_AUTH_WINDOW_MS. Worker: PETBARN_AUTH_MAX_AGE_MS (default 600000).
+ */
+function resolveAuthWindowMs() {
+  const raw = Number(process.env.PETBARN_AUTH_WINDOW_MS)
+  if (Number.isFinite(raw) && raw >= 30_000 && raw <= 24 * 60 * 60 * 1000) return raw
+  return 60 * 60 * 1000
+}
+
+export const AUTH_WINDOW_MS = resolveAuthWindowMs()
 
 export function actionMessage(action, targetId, glbSha256, timestampMs) {
-  return `petbarn:v1:${action}:${targetId}:${glbSha256 || 'none'}:${timestampMs}`
+  const sha = (glbSha256 && String(glbSha256).trim().toLowerCase()) || 'none'
+  return `petbarn:v1:${action}:${targetId}:${sha}:${timestampMs}`
 }
 
 function hexToBytes(hex) {
@@ -97,11 +108,26 @@ export function verifyActionAuth(action, meta, targetEntry, nowMs = Date.now()) 
   const message = actionMessage(action, meta.targetId, glbSha256, ts)
   const recovered = recoverAddress(message, signature).toLowerCase()
 
-  const owner = String(targetEntry.wallet || '').toLowerCase()
+  const owner = String(targetEntry.wallet || '')
+    .trim()
+    .toLowerCase()
   const admins = adminWallets()
+
+  // Listings with no wallet on file cannot be owner-authorized — only admin.
+  if (!owner) {
+    if (!admins.includes(recovered)) {
+      throw new Error(
+        `${action} target ${meta.targetId} has no wallet on the catalog entry; ` +
+          `only PETBARN_ADMIN_WALLETS can act (recovered ${recovered}). ` +
+          `Backfill catalog.pets[].wallet for owner updates.`
+      )
+    }
+    return recovered
+  }
+
   if (recovered !== owner && !admins.includes(recovered)) {
     throw new Error(
-      `signature recovers to ${recovered}, which is neither the listing wallet (${owner || 'unset'}) nor an admin`
+      `signature recovers to ${recovered}, which is neither the listing wallet (${owner}) nor an admin`
     )
   }
   return recovered

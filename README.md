@@ -50,12 +50,33 @@ the timestamp is within `PETBARN_AUTH_WINDOW_MS` (default 1h). For updates the
 signed `glbSha256` must match the uploaded `pet.glb`, binding signature to
 content.
 
+Listings with **no `wallet` field** cannot be updated/deleted by an “owner”
+signature — only `PETBARN_ADMIN_WALLETS`. Prefer backfilling `catalog.pets[].wallet`
+when possible.
+
+### Freshness windows (Worker vs Action)
+
+| Layer | Env | Default | Role |
+|-------|-----|---------|------|
+| Cloudflare dispatch Worker | `PETBARN_AUTH_MAX_AGE_MS` | **10 min** | Reject stale POSTs before they hit GitHub |
+| This deploy Action | `PETBARN_AUTH_WINDOW_MS` | **1 hour** | Allow queue → CI delay after a valid submit |
+
+Keep Action ≥ Worker. If CI is always fast, you may tighten Action toward 10 min.
+
 - **update** — redeploys the listing's existing parcel with the new GLB/thumb
   and rewrites the catalog entry in place (same id/parcel/wallet/submittedAt;
   fresh CIDs, clip data, `deployedAt`, `updatedAt`; `petName` may change).
 - **delete** — deploys an empty tombstone scene over the parcel, removes the
   catalog entry, and points `nextParcel` at the freed cell so holes refill
   first (`computeNextParcel`'s full scan picks up any others).
+
+### GitHub Actions env (optional)
+
+| Name | Where | Purpose |
+|------|--------|---------|
+| `DCL_PRIVATE_KEY` | Secret | Worlds deploy (required for real deploys) |
+| `PETBARN_ADMIN_WALLETS` | Variable or secret | Comma-separated `0x…` that may update/delete any listing |
+| `PETBARN_AUTH_WINDOW_MS` | Variable | Max \|now − timestampMs\| (default `3600000`) |
 
 ## Catalog URL (clients)
 
