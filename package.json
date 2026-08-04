@@ -16,6 +16,9 @@
   },
   "dependencies": {
     "@dcl/hashing": "^1.2.0",
-    "@gltf-transform/core": "^4.4.2"
+    "@gltf-transform/core": "^4.4.2",
+    "@gltf-transform/extensions": "^4.4.2",
+    "@noble/curves": "^1.6.0",
+    "@noble/hashes": "^1.5.0"
   }
 }

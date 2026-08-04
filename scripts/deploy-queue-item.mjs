@@ -9,6 +9,7 @@
  * Usage: node scripts/deploy-queue-item.mjs <queue-id>
  */
 import { spawnSync } from 'node:child_process'
+import crypto from 'node:crypto'
 import fs from 'node:fs'
 import path from 'node:path'
 import { hashV1 } from '@dcl/hashing'
@@ -22,12 +23,14 @@ import {
   ensureDir,
   queueItemDir,
   readCatalog,
+  readMeta,
   rmrf,
   writeCatalog,
   worldName
 } from './lib.mjs'
-import { buildPetScene } from './build-pet-scene.mjs'
+import { buildPetScene, buildTombstoneScene } from './build-pet-scene.mjs'
 import { computeNextParcel, nextFreeAfter, parcelString } from './next-parcel.mjs'
+import { verifyActionAuth } from './verify-action.mjs'
 
 async function hashFile(filePath) {
   const buf = fs.readFileSync(filePath)
@@ -65,12 +68,175 @@ function linkNodeModules(workDir) {
   fs.symlinkSync(source, target, 'junction')
 }
 
+/** Locate a catalog entry by listing id, or throw. */
+function requireTarget(catalog, targetId, action) {
+  const target = (catalog.pets || []).find((p) => p.id === targetId)
+  if (!target) throw new Error(`${action} target not in catalog: ${targetId}`)
+  return target
+}
+
+function sha256File(filePath) {
+  return crypto.createHash('sha256').update(fs.readFileSync(filePath)).digest('hex')
+}
+
+/** Deploy a scene work dir (build + multi-scene deploy), honoring dry-run. */
+function deploySceneDir(id, parcelStr, workDir, dryRun) {
+  if (dryRun) {
+    console.log(`[petbarn] DRY RUN — would deploy ${id} @ ${parcelStr}`)
+    return
+  }
+  if (!process.env.DCL_PRIVATE_KEY) {
+    throw new Error('DCL_PRIVATE_KEY is required for deploy (or set PETBARN_DRY_RUN=1)')
+  }
+  linkNodeModules(workDir)
+  console.log(`[petbarn] Building scene for ${id} @ ${parcelStr}…`)
+  run('npx', ['sdk-commands', 'build'], { cwd: workDir, stdio: 'inherit', env: process.env })
+  console.log(`[petbarn] Deploying ${id} → ${worldName()} (${contentServer()})…`)
+  run(
+    'npx',
+    [
+      'sdk-commands',
+      'deploy',
+      '--skip-validations',
+      '--skip-build',
+      '--yes',
+      '--multi-scene',
+      '--target-content',
+      contentServer()
+    ],
+    { cwd: workDir, stdio: 'inherit', env: process.env }
+  )
+}
+
+function archiveQueueItem(id, qDir, workDir, payload) {
+  const archDir = path.join(ARCHIVE_DIR, id)
+  ensureDir(archDir)
+  copyFile(path.join(qDir, 'meta.json'), path.join(archDir, 'meta.json'))
+  fs.writeFileSync(
+    path.join(archDir, 'deploy.json'),
+    JSON.stringify(payload, null, 2) + '\n',
+    'utf8'
+  )
+  rmrf(qDir)
+  if (workDir) rmrf(workDir)
+}
+
+function parseParcel(parcelStr) {
+  const [x, y] = String(parcelStr).split(',').map(Number)
+  if (!Number.isFinite(x) || !Number.isFinite(y)) {
+    throw new Error(`Bad parcel string: ${parcelStr}`)
+  }
+  return { x, y }
+}
+
+/**
+ * Replace an existing listing's assets in place: redeploy its parcel with the
+ * new GLB/thumbnail, refresh the catalog entry (same id, parcel, wallet,
+ * submittedAt). Requires meta.auth signed by the listing wallet or an admin.
+ */
+async function updateQueueItem(id, meta, dryRun) {
+  const qDir = queueItemDir(id)
+  const catalog = readCatalog()
+  const target = requireTarget(catalog, meta.targetId, 'update')
+  const signer = verifyActionAuth('update', meta, target)
+
+  const glbPath = path.join(qDir, 'pet.glb')
+  if (!fs.existsSync(glbPath)) throw new Error(`update requires pet.glb (${id})`)
+  const actualSha = sha256File(glbPath)
+  if ((meta.auth.glbSha256 || '').toLowerCase() !== actualSha) {
+    throw new Error(`auth.glbSha256 does not match uploaded pet.glb (${actualSha})`)
+  }
+
+  const parcel = parseParcel(target.parcel)
+  const workDir = path.join(WORK_ROOT, id)
+  const built = await buildPetScene(id, parcel, workDir)
+
+  const glbCid = await hashFile(path.join(workDir, built.glbFile))
+  const thumbnailCid = await hashFile(path.join(workDir, built.thumbFile))
+
+  deploySceneDir(id, built.parcel, workDir, dryRun)
+
+  const now = new Date().toISOString()
+  const entry = {
+    ...target,
+    petName: built.petName,
+    creatorName: built.creatorName,
+    type: built.type,
+    animationCount: built.animationCount,
+    clipNames: built.clipNames,
+    glbFile: built.glbFile,
+    glbCid,
+    thumbnailFile: built.thumbFile,
+    thumbnailCid,
+    sizeBytes: built.glbSize,
+    thumbnailSizeBytes: built.thumbSize,
+    deployedAt: now,
+    updatedAt: now
+  }
+  const nextCatalog = readCatalog()
+  nextCatalog.pets = (nextCatalog.pets || []).map((p) => (p.id === target.id ? entry : p))
+  nextCatalog.updatedAt = now
+  writeCatalog(nextCatalog)
+
+  archiveQueueItem(id, qDir, workDir, {
+    action: 'update',
+    targetId: target.id,
+    authorizedBy: signer,
+    entry,
+    dryRun
+  })
+  console.log(`[petbarn] Updated ${target.id} in place @ ${target.parcel} (by ${signer})`)
+  return { skipped: false, action: 'update', entry }
+}
+
+/**
+ * Retire a listing: deploy an empty tombstone scene over its parcel, remove
+ * the catalog entry, and point nextParcel at the freed cell so the hole is
+ * refilled first. Requires meta.auth signed by the listing wallet or admin.
+ */
+async function deleteQueueItem(id, meta, dryRun) {
+  const qDir = queueItemDir(id)
+  const catalog = readCatalog()
+  const target = requireTarget(catalog, meta.targetId, 'delete')
+  const signer = verifyActionAuth('delete', meta, target)
+
+  const parcel = parseParcel(target.parcel)
+  const workDir = path.join(WORK_ROOT, id)
+  buildTombstoneScene(parcel, workDir)
+
+  deploySceneDir(id, target.parcel, workDir, dryRun)
+
+  const now = new Date().toISOString()
+  const nextCatalog = readCatalog()
+  nextCatalog.pets = (nextCatalog.pets || []).filter((p) => p.id !== target.id)
+  // Freed cell becomes the next allocation target; further holes are found by
+  // computeNextParcel's full scan when the hint is taken.
+  nextCatalog.nextParcel = parcel
+  nextCatalog.updatedAt = now
+  writeCatalog(nextCatalog)
+
+  archiveQueueItem(id, qDir, workDir, {
+    action: 'delete',
+    targetId: target.id,
+    authorizedBy: signer,
+    removedEntry: target,
+    dryRun
+  })
+  console.log(`[petbarn] Deleted ${target.id}, freed parcel ${target.parcel} (by ${signer})`)
+  return { skipped: false, action: 'delete', removed: target.id }
+}
+
 export async function deployQueueItem(id, options = {}) {
   const dryRun = options.dryRun === true || process.env.PETBARN_DRY_RUN === '1'
   const qDir = queueItemDir(id)
   if (!fs.existsSync(path.join(qDir, 'meta.json'))) {
     throw new Error(`Queue item not found: ${id}`)
   }
+  const meta = readMeta(id)
+  const action = String(meta.action || 'create')
+  if (action === 'update') return updateQueueItem(id, meta, dryRun)
+  if (action === 'delete') return deleteQueueItem(id, meta, dryRun)
+  if (action !== 'create') throw new Error(`Unknown queue action: ${action}`)
 
   const catalog = readCatalog()
   if ((catalog.pets || []).some((p) => p.id === id)) {
@@ -93,31 +259,7 @@ export async function deployQueueItem(id, options = {}) {
   const glbCid = await hashFile(glbAbs)
   const thumbnailCid = await hashFile(thumbAbs)
 
-  if (!dryRun) {
-    if (!process.env.DCL_PRIVATE_KEY) {
-      throw new Error('DCL_PRIVATE_KEY is required for deploy (or set PETBARN_DRY_RUN=1)')
-    }
-    linkNodeModules(workDir)
-    console.log(`[petbarn] Building scene for ${id} @ ${built.parcel}…`)
-    run('npx', ['sdk-commands', 'build'], { cwd: workDir, stdio: 'inherit', env: process.env })
-    console.log(`[petbarn] Deploying ${id} → ${worldName()} (${contentServer()})…`)
-    run(
-      'npx',
-      [
-        'sdk-commands',
-        'deploy',
-        '--skip-validations',
-        '--skip-build',
-        '--yes',
-        '--multi-scene',
-        '--target-content',
-        contentServer()
-      ],
-      { cwd: workDir, stdio: 'inherit', env: process.env }
-    )
-  } else {
-    console.log(`[petbarn] DRY RUN — would deploy ${id} @ ${built.parcel}`)
-  }
+  deploySceneDir(id, built.parcel, workDir, dryRun)
 
   const now = new Date().toISOString()
   const entry = {
@@ -150,16 +292,7 @@ export async function deployQueueItem(id, options = {}) {
   writeCatalog(nextCatalog)
 
   // archive meta (keep small); drop binaries from queue
-  const archDir = path.join(ARCHIVE_DIR, id)
-  ensureDir(archDir)
-  copyFile(path.join(qDir, 'meta.json'), path.join(archDir, 'meta.json'))
-  fs.writeFileSync(
-    path.join(archDir, 'deploy.json'),
-    JSON.stringify({ entry, dryRun }, null, 2) + '\n',
-    'utf8'
-  )
-  rmrf(qDir)
-  rmrf(workDir)
+  archiveQueueItem(id, qDir, workDir, { action: 'create', entry, dryRun })
 
   console.log(`[petbarn] Catalog updated: ${entry.id} parcel=${entry.parcel}`)
   console.log(`  glbCid=${glbCid}`)
