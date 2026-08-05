@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T20:10:43.194Z",
+  "updatedAt": "2026-08-05T20:11:50.500Z",
   "nextParcel": {
-    "x": -61,
+    "x": -60,
     "y": -150
   },
   "pets": [
@@ -2062,6 +2062,28 @@
       "thumbnailSizeBytes": 8512,
       "submittedAt": "2026-08-05T20:09:54.491Z",
       "deployedAt": "2026-08-05T20:10:43.194Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-trout-3uwg",
+      "petName": "Trout",
+      "creatorName": "AwedJob",
+      "type": "flying",
+      "animationCount": 3,
+      "clipNames": [
+        "Fly",
+        "FlyFast",
+        "Hover"
+      ],
+      "parcel": "-61,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeiag7amq622mxuhc4f2ms3sqdobt2hismbm5gxm77zdq6njcuxf5ky",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreid7buiyw5tm3c75ruyo7bjxpxqb3faz5erwgw242vlztuzihshvbi",
+      "sizeBytes": 348968,
+      "thumbnailSizeBytes": 7272,
+      "submittedAt": "2026-08-05T20:10:59.220Z",
+      "deployedAt": "2026-08-05T20:11:50.500Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
