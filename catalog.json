@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:38:38.165Z",
+  "updatedAt": "2026-08-05T19:39:50.620Z",
   "nextParcel": {
-    "x": -91,
+    "x": -90,
     "y": -150
   },
   "pets": [
@@ -1372,6 +1372,28 @@
       "thumbnailSizeBytes": 4440,
       "submittedAt": "2026-08-05T19:37:49.916Z",
       "deployedAt": "2026-08-05T19:38:38.165Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-snow-leopard-67kx",
+      "petName": "Snow Leopard",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 3,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "parcel": "-91,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeie5btu5zeraec3kwpocujxr3ee7cht7e4hymabki2rkqogt465gsm",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreibbvxu55v7lamg2hln6dk2nkvazqqt4c2gkytfvk4364c6jhk5fim",
+      "sizeBytes": 457956,
+      "thumbnailSizeBytes": 11368,
+      "submittedAt": "2026-08-05T19:38:55.035Z",
+      "deployedAt": "2026-08-05T19:39:50.620Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
