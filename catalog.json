@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:37:44.356Z",
+  "updatedAt": "2026-08-05T19:38:38.165Z",
   "nextParcel": {
-    "x": -92,
+    "x": -91,
     "y": -150
   },
   "pets": [
@@ -1349,6 +1349,29 @@
       "thumbnailSizeBytes": 5516,
       "submittedAt": "2026-08-05T19:36:44.563Z",
       "deployedAt": "2026-08-05T19:37:44.356Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-labrador-42jz",
+      "petName": "Labrador",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 4,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-92,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeib4oyhowylrk45x553wv32qouvz7qtitbsp2gpnjovufoamdfhisq",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreib335tqp6j3w7msnrhg42t4rk4itnfmdiid5zztmruqejjwje22au",
+      "sizeBytes": 1581504,
+      "thumbnailSizeBytes": 4440,
+      "submittedAt": "2026-08-05T19:37:49.916Z",
+      "deployedAt": "2026-08-05T19:38:38.165Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
