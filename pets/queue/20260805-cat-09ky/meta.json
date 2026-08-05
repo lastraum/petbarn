@@ -1,0 +1,18 @@
+{
+  "id": "20260805-cat-09ky",
+  "action": "update",
+  "targetId": "20260731-cat-x74c",
+  "auth": {
+    "signature": "0x5e7576c7a950162adfb1fb1bbf235d8f1424f7fdd7dea0e74f2c90babc35e2ff63483363c96f974d5cf95655a70acc1dbdf97c5235b513c20b579b24fca7af841b",
+    "timestampMs": 1785899699585,
+    "glbSha256": "a53030793f33a32a4d92425d023aff4dda9a67d737942e83971a8eb515dcd506"
+  },
+  "petName": "Cat",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 1885352,
+  "thumbnailSizeBytes": 154269,
+  "submittedAt": "2026-08-05T03:15:02.988Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
