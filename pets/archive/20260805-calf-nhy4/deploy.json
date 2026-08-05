@@ -1,0 +1,29 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-calf-nhy4",
+    "petName": "Calf",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 6,
+    "clipNames": [
+      "Idle",
+      "AFK",
+      "Run",
+      "Sit",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-129,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeiao2biuu5po5yp6mc4fuhy2fhucc4q7kz3fi2bdopfmappmblqhpa",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreiclbgnui7wrx6g2b4wqzow7g2ucew3wuwpztpyhxnjk7zy745qkp4",
+    "sizeBytes": 781572,
+    "thumbnailSizeBytes": 7120,
+    "submittedAt": "2026-08-05T18:56:51.249Z",
+    "deployedAt": "2026-08-05T18:57:42.522Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
