@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:47:14.906Z",
+  "updatedAt": "2026-08-05T19:48:26.545Z",
   "nextParcel": {
-    "x": -83,
+    "x": -82,
     "y": -150
   },
   "pets": [
@@ -1556,6 +1556,29 @@
       "thumbnailSizeBytes": 9340,
       "submittedAt": "2026-08-05T19:46:30.472Z",
       "deployedAt": "2026-08-05T19:47:14.906Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-mammoth-kcyu",
+      "petName": "Mammoth",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 4,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Walk",
+        "AFK"
+      ],
+      "parcel": "-83,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeiaxkpnxrseo54fgxp7krls4nlk6zraqppw66sapvwo3n7daa2ozpa",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreicnt2faef2chebrpsnpasf6pfeza6wembn7w5qehor4zhtnnwtfti",
+      "sizeBytes": 1876952,
+      "thumbnailSizeBytes": 11102,
+      "submittedAt": "2026-08-05T19:47:35.798Z",
+      "deployedAt": "2026-08-05T19:48:26.545Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
