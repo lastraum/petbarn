@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:46:27.661Z",
+  "updatedAt": "2026-08-05T19:47:14.906Z",
   "nextParcel": {
-    "x": -84,
+    "x": -83,
     "y": -150
   },
   "pets": [
@@ -1533,6 +1533,29 @@
       "thumbnailSizeBytes": 9852,
       "submittedAt": "2026-08-05T19:45:25.310Z",
       "deployedAt": "2026-08-05T19:46:27.661Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-lynx-02-ak4v",
+      "petName": "Lynx 02",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 4,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-84,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeid25emfdkedzo56frizb5sergojzsxugxmihlgsbzmgrtpzlahkaq",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreief4zgkkblq6oc2g7gj6e5hz5tysk26swshrcu6ts57gwr7fzyzmy",
+      "sizeBytes": 1130268,
+      "thumbnailSizeBytes": 9340,
+      "submittedAt": "2026-08-05T19:46:30.472Z",
+      "deployedAt": "2026-08-05T19:47:14.906Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
