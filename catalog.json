@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T20:06:26.655Z",
+  "updatedAt": "2026-08-05T20:07:28.816Z",
   "nextParcel": {
-    "x": -65,
+    "x": -64,
     "y": -150
   },
   "pets": [
@@ -1971,6 +1971,29 @@
       "thumbnailSizeBytes": 7622,
       "submittedAt": "2026-08-05T20:05:33.103Z",
       "deployedAt": "2026-08-05T20:06:26.655Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-rooster-3sj2",
+      "petName": "Rooster",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 4,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Sit",
+        "Walk"
+      ],
+      "parcel": "-65,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeiaye3qd365cx65mcmkj7dhhxlv6h2ovw6a3wga7kd4tgvuw4fo7hy",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreiagoielwb7avlvdizof33wg3zcuadhj2w4cjyqhqaibz2enqi4kuq",
+      "sizeBytes": 709888,
+      "thumbnailSizeBytes": 9408,
+      "submittedAt": "2026-08-05T20:06:38.435Z",
+      "deployedAt": "2026-08-05T20:07:28.816Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
