@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:53:56.980Z",
+  "updatedAt": "2026-08-05T19:54:46.090Z",
   "nextParcel": {
-    "x": -77,
+    "x": -76,
     "y": -150
   },
   "pets": [
@@ -1695,6 +1695,28 @@
       "thumbnailSizeBytes": 9268,
       "submittedAt": "2026-08-05T19:53:01.162Z",
       "deployedAt": "2026-08-05T19:53:56.980Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-polar-bear-cub-u04t",
+      "petName": "Polar Bear Cub",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 3,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "parcel": "-77,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeiaarwk4zvpolb6roc4666dz44cj7n4q7ygk2dnkgsdj3yx32ebb7i",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreigx62pgo2osztfjuj3w4x272nys263d4pix6v63c2yssmack43fey",
+      "sizeBytes": 330480,
+      "thumbnailSizeBytes": 7888,
+      "submittedAt": "2026-08-05T19:54:06.057Z",
+      "deployedAt": "2026-08-05T19:54:46.090Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
