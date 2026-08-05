@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T18:57:42.522Z",
+  "updatedAt": "2026-08-05T18:58:59.755Z",
   "nextParcel": {
-    "x": -128,
+    "x": -127,
     "y": -150
   },
   "pets": [
@@ -518,6 +518,30 @@
       "thumbnailSizeBytes": 7120,
       "submittedAt": "2026-08-05T18:56:51.249Z",
       "deployedAt": "2026-08-05T18:57:42.522Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-dromedary-camel-11ow",
+      "petName": "Dromedary Camel",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 5,
+      "clipNames": [
+        "AFK",
+        "Idle",
+        "Run",
+        "Walk",
+        "Trot"
+      ],
+      "parcel": "-128,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeiebfnxm63xrcsotu73rumad35yxpbaesya546uoo2cazkfytgdxay",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreie7g7c6xlls66lfu6rxiyugjzgfk23fgi363gk5w6jnorahgugzcu",
+      "sizeBytes": 602564,
+      "thumbnailSizeBytes": 7558,
+      "submittedAt": "2026-08-05T18:57:56.120Z",
+      "deployedAt": "2026-08-05T18:58:59.755Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
