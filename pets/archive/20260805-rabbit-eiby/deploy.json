@@ -1,0 +1,26 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-rabbit-eiby",
+    "petName": "Rabbit",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Walk",
+      "Idle",
+      "Run"
+    ],
+    "parcel": "-72,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeiflibwmxylfzgpixicvr34hwpbmest7tuu2ldjvumlberk2rmreuy",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreigxsqwyansgv2byeoq6ovruxjsiqjoocd2mtgveimu2df3lnbx6ym",
+    "sizeBytes": 460480,
+    "thumbnailSizeBytes": 9222,
+    "submittedAt": "2026-08-05T19:59:00.900Z",
+    "deployedAt": "2026-08-05T20:00:00.918Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
