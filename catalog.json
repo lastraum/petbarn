@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:48:26.545Z",
+  "updatedAt": "2026-08-05T19:49:23.900Z",
   "nextParcel": {
-    "x": -82,
+    "x": -81,
     "y": -150
   },
   "pets": [
@@ -1579,6 +1579,28 @@
       "thumbnailSizeBytes": 11102,
       "submittedAt": "2026-08-05T19:47:35.798Z",
       "deployedAt": "2026-08-05T19:48:26.545Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-monkey-z401",
+      "petName": "Monkey",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 3,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "parcel": "-82,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeidz2wbk6fqjgh6ar3obo45izmblh6f5wjpducghx5bafcx6ckb5mu",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreibbeaqwdv4toxjv2xzdvntwziznd6upomcci7hyo5ctrkovs3t64e",
+      "sizeBytes": 636344,
+      "thumbnailSizeBytes": 10738,
+      "submittedAt": "2026-08-05T19:48:40.932Z",
+      "deployedAt": "2026-08-05T19:49:23.900Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
