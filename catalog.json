@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:35:27.094Z",
+  "updatedAt": "2026-08-05T19:36:34.540Z",
   "nextParcel": {
-    "x": -94,
+    "x": -93,
     "y": -150
   },
   "pets": [
@@ -1302,6 +1302,29 @@
       "thumbnailSizeBytes": 10084,
       "submittedAt": "2026-08-05T19:34:34.009Z",
       "deployedAt": "2026-08-05T19:35:27.094Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-jaguar-60vl",
+      "petName": "Jaguar",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 4,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Sit",
+        "Walk"
+      ],
+      "parcel": "-94,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeihzbw6n6jd3xfetemu4gqiglhurg4xaxrvlgb6er5k2hc2oupliai",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreiblqk2lcr7qxnxosy4vxtzwzwqewua5oxko3mfshfozsfmmtke6pm",
+      "sizeBytes": 552380,
+      "thumbnailSizeBytes": 10204,
+      "submittedAt": "2026-08-05T19:35:39.384Z",
+      "deployedAt": "2026-08-05T19:36:34.540Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
