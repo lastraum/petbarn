@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:23:34.902Z",
+  "updatedAt": "2026-08-05T19:24:43.187Z",
   "nextParcel": {
-    "x": -105,
+    "x": -104,
     "y": -150
   },
   "pets": [
@@ -1050,6 +1050,29 @@
       "thumbnailSizeBytes": 5320,
       "submittedAt": "2026-08-05T19:22:39.695Z",
       "deployedAt": "2026-08-05T19:23:34.902Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-red-fox-o4jy",
+      "petName": "Red Fox",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 4,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-105,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeigegqrukdiukbmfhjfs2ddo266dnhfstek3i42kb3hcsdwvw3al4e",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreihn3xx2wtz7hrfxrrnb3ffbl35hkvxvtiy2ispzt6z23s2jbbjynu",
+      "sizeBytes": 736924,
+      "thumbnailSizeBytes": 6624,
+      "submittedAt": "2026-08-05T19:23:44.437Z",
+      "deployedAt": "2026-08-05T19:24:43.187Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
