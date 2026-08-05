@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:10:27.392Z",
+  "updatedAt": "2026-08-05T19:11:27.612Z",
   "nextParcel": {
-    "x": -117,
+    "x": -116,
     "y": -150
   },
   "pets": [
@@ -768,6 +768,30 @@
       "thumbnailSizeBytes": 6992,
       "submittedAt": "2026-08-05T19:09:37.711Z",
       "deployedAt": "2026-08-05T19:10:27.392Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-sika-deer-4qeq",
+      "petName": "Sika Deer",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 5,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "AFK",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-117,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeiefjsswq6bxjgfe6ck7m4dibteqkbeu65ghaa6jke53i2322rfhqu",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreid3nctrxqnvpmgzobqwdg7zhkmsx6xvhq4ii5fybcflrngon3ytw4",
+      "sizeBytes": 1281740,
+      "thumbnailSizeBytes": 4294,
+      "submittedAt": "2026-08-05T19:10:42.917Z",
+      "deployedAt": "2026-08-05T19:11:27.612Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
