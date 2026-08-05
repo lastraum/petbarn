@@ -1,0 +1,26 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-ostrich-hrw7",
+    "petName": "Ostrich",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-79,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeickecn5zqnc3aa44mg65k4nnsvsmerhplgiko7hwlpqivyfxwaspe",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreibyj637cfjpmbr2xwrh35xfcxnah5ksgxmfenpjpsb4ua3f55va6m",
+    "sizeBytes": 478404,
+    "thumbnailSizeBytes": 6020,
+    "submittedAt": "2026-08-05T19:51:56.510Z",
+    "deployedAt": "2026-08-05T19:52:41.306Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
