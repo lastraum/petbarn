@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T20:16:09.237Z",
+  "updatedAt": "2026-08-05T20:17:18.729Z",
   "nextParcel": {
-    "x": -56,
+    "x": -55,
     "y": -150
   },
   "pets": [
@@ -2176,6 +2176,31 @@
       "thumbnailSizeBytes": 8426,
       "submittedAt": "2026-08-05T20:15:18.616Z",
       "deployedAt": "2026-08-05T20:16:09.237Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-wildebeest-d0rg",
+      "petName": "Wildebeest",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 6,
+      "clipNames": [
+        "Idle",
+        "AFK",
+        "Run",
+        "Sit",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-56,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeif23w4apesbpt2nvkjyjnk2ans44nhemyxbatqzca276hvmfr5pdi",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreicublslcq3bayr6unffr2fgzxohfxwt4etki3fpcuidkpwrwlsnle",
+      "sizeBytes": 1156548,
+      "thumbnailSizeBytes": 6592,
+      "submittedAt": "2026-08-05T20:16:23.880Z",
+      "deployedAt": "2026-08-05T20:17:18.729Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
