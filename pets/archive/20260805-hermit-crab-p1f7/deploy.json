@@ -1,0 +1,27 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-hermit-crab-p1f7",
+    "petName": "Hermit Crab",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 4,
+    "clipNames": [
+      "Idle",
+      "AFK",
+      "Walk",
+      "Run"
+    ],
+    "parcel": "-98,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeib25gr3wohbdgi2dmxrokjr6f7ctpnrfagna7mo4zwob3b24vdkra",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreidwemskw6uccby4pyy2uzi3eihqobsdzdozrxwvtmxxlh5t6youc4",
+    "sizeBytes": 419604,
+    "thumbnailSizeBytes": 7632,
+    "submittedAt": "2026-08-05T19:31:19.448Z",
+    "deployedAt": "2026-08-05T19:32:10.694Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
