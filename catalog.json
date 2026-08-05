@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T18:58:59.755Z",
+  "updatedAt": "2026-08-05T19:00:13.489Z",
   "nextParcel": {
-    "x": -127,
+    "x": -126,
     "y": -150
   },
   "pets": [
@@ -542,6 +542,28 @@
       "thumbnailSizeBytes": 7558,
       "submittedAt": "2026-08-05T18:57:56.120Z",
       "deployedAt": "2026-08-05T18:58:59.755Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-bactrian-camel-3jhl",
+      "petName": "Bactrian Camel",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 3,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "parcel": "-127,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeiajmn6nrdw2owqwuxvhvlslu7w7hl6krx4ymhzk5o7z6kkyirmjeq",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreiash3sqxk2de7oc7pfqi262tymnuls46rixicdu4cc7vbbfenqcc4",
+      "sizeBytes": 847120,
+      "thumbnailSizeBytes": 6806,
+      "submittedAt": "2026-08-05T18:59:21.621Z",
+      "deployedAt": "2026-08-05T19:00:13.489Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
