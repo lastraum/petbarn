@@ -1,0 +1,26 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-puppy-62t9",
+    "petName": "Puppy",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-73,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeihlstm5vy3rcylkkcrol6s6tdx6uxhbvrtcbfwlhxhgriilumh6ga",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreiafqqakl5heam6bjjhntxwxd5upvaxl5qkr3p3t6euf2nivrozlmy",
+    "sizeBytes": 312872,
+    "thumbnailSizeBytes": 7430,
+    "submittedAt": "2026-08-05T19:57:56.289Z",
+    "deployedAt": "2026-08-05T19:58:49.122Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
