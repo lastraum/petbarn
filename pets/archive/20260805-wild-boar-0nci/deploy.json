@@ -1,0 +1,27 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-wild-boar-0nci",
+    "petName": "Wild Boar",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 4,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-57,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeifrv7qvltn3qog5ay757g5rxv5ftspl4rq3mzw5csytsjws5pio74",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreib36stsrmofyfr2yhw5ihgg24zizoohwbezchktqetwcr76fmhvmu",
+    "sizeBytes": 1290592,
+    "thumbnailSizeBytes": 8426,
+    "submittedAt": "2026-08-05T20:15:18.616Z",
+    "deployedAt": "2026-08-05T20:16:09.237Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
