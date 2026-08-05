@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:39:50.620Z",
+  "updatedAt": "2026-08-05T19:40:49.240Z",
   "nextParcel": {
-    "x": -90,
+    "x": -89,
     "y": -150
   },
   "pets": [
@@ -1394,6 +1394,30 @@
       "thumbnailSizeBytes": 11368,
       "submittedAt": "2026-08-05T19:38:55.035Z",
       "deployedAt": "2026-08-05T19:39:50.620Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-leopard-88mi",
+      "petName": "Leopard",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 5,
+      "clipNames": [
+        "Idle",
+        "AFK",
+        "Run",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-90,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeifp7mntcav6sig3tfoxvj6a5wo2upft75242ix4ydmw3xrduhhlku",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreicrpf7ucibwtbthlz3lbchtyokbxxqa7owklr2nxleyk3rtb54hte",
+      "sizeBytes": 1367888,
+      "thumbnailSizeBytes": 15608,
+      "submittedAt": "2026-08-05T19:39:59.772Z",
+      "deployedAt": "2026-08-05T19:40:49.240Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
