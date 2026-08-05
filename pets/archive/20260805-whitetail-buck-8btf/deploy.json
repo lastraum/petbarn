@@ -1,0 +1,28 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-whitetail-buck-8btf",
+    "petName": "Whitetail Buck",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 5,
+    "clipNames": [
+      "Idle",
+      "AFK",
+      "Run",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-133,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeiajwvtwurslyxjv6jito546wi4dom5xfufvo2g4xb5peub4xphn44",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreiagvjnpqmmpz7m6lpnytg5u7cfkbpeomog2raztquxvlq5di35soe",
+    "sizeBytes": 533540,
+    "thumbnailSizeBytes": 6836,
+    "submittedAt": "2026-08-05T18:52:29.417Z",
+    "deployedAt": "2026-08-05T18:53:24.163Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
