@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:44:07.552Z",
+  "updatedAt": "2026-08-05T19:45:10.327Z",
   "nextParcel": {
-    "x": -86,
+    "x": -85,
     "y": -150
   },
   "pets": [
@@ -1486,6 +1486,31 @@
       "thumbnailSizeBytes": 7824,
       "submittedAt": "2026-08-05T19:43:14.994Z",
       "deployedAt": "2026-08-05T19:44:07.552Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-lioness-eg3r",
+      "petName": "Lioness",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 6,
+      "clipNames": [
+        "Idle",
+        "AFK",
+        "Run",
+        "Sit",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-86,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeid267vg2fhfiewklcx6zpgmupdxxrnwatczv43bzx5ulny6nwqdqq",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreig4scd7uevovervnit477bm7bccgdfzuw2krqt7t4yls2ifp3zopi",
+      "sizeBytes": 1120152,
+      "thumbnailSizeBytes": 6870,
+      "submittedAt": "2026-08-05T19:44:20.513Z",
+      "deployedAt": "2026-08-05T19:45:10.327Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
