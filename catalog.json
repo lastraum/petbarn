@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T20:04:21.914Z",
+  "updatedAt": "2026-08-05T20:05:18.277Z",
   "nextParcel": {
-    "x": -67,
+    "x": -66,
     "y": -150
   },
   "pets": [
@@ -1926,6 +1926,28 @@
       "thumbnailSizeBytes": 7304,
       "submittedAt": "2026-08-05T20:03:22.098Z",
       "deployedAt": "2026-08-05T20:04:21.914Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-rhino-9nv4",
+      "petName": "Rhino",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 3,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "parcel": "-67,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeig6lv5vqslxeqfgsuihr32ky3sst6hm7f6kaonroblsr4tvvocrsm",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreibaifpq7dkvyyvre5f26ltcba3dcxw7dg6epdfj2cjvkbzzfmuake",
+      "sizeBytes": 389368,
+      "thumbnailSizeBytes": 6134,
+      "submittedAt": "2026-08-05T20:04:27.857Z",
+      "deployedAt": "2026-08-05T20:05:18.277Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
