@@ -1,0 +1,28 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-timber-wolf-jfgh",
+    "petName": "Timber Wolf",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 5,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Sit",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-55,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeig2veil6cujuvg2l2jh4lc3ckxebm6vhfsiu5ikluv4cvecaoezae",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreia6fumxnf6pjunpfr2nna2sgop3xtz5sompby2bmvipjbs4ajn5vm",
+    "sizeBytes": 959336,
+    "thumbnailSizeBytes": 7980,
+    "submittedAt": "2026-08-05T20:17:29.265Z",
+    "deployedAt": "2026-08-05T20:18:19.923Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
