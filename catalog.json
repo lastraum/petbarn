@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:15:58.823Z",
+  "updatedAt": "2026-08-05T19:17:04.220Z",
   "nextParcel": {
-    "x": -112,
+    "x": -111,
     "y": -150
   },
   "pets": [
@@ -887,6 +887,29 @@
       "thumbnailSizeBytes": 11114,
       "submittedAt": "2026-08-05T19:15:03.336Z",
       "deployedAt": "2026-08-05T19:15:58.823Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-saddle-donkey-6ri7",
+      "petName": "Saddle Donkey",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 4,
+      "clipNames": [
+        "Run",
+        "Idle",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-112,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeigzx4nqhvjoezsy56jw4g7ssbgkzx64xjyjmvvtvwh6lm3zgdn47a",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreih3srqku22rsfi3g667fvusplwp7wwzrmqcympcbwbgzcfjguizze",
+      "sizeBytes": 1089600,
+      "thumbnailSizeBytes": 9452,
+      "submittedAt": "2026-08-05T19:16:08.576Z",
+      "deployedAt": "2026-08-05T19:17:04.220Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
