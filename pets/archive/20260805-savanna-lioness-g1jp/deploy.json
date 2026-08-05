@@ -1,0 +1,27 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-savanna-lioness-g1jp",
+    "petName": "Savanna Lioness",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 4,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-87,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeiabunekuetsq2qz3lworgmme7spviivxtvidnqzubtozhxvns6oku",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreiawmtofqeg7kp6qsykj7izukqg7nqzgldpb5qjr6om7thbtjklsr4",
+    "sizeBytes": 1466412,
+    "thumbnailSizeBytes": 7824,
+    "submittedAt": "2026-08-05T19:43:14.994Z",
+    "deployedAt": "2026-08-05T19:44:07.552Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
