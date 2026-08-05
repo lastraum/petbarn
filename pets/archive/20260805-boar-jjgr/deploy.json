@@ -1,0 +1,29 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-boar-jjgr",
+    "petName": "Boar",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 6,
+    "clipNames": [
+      "Idle",
+      "AFK",
+      "Run",
+      "Sit",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-135,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeigtt6bxgzfuuesx3ultvcu4lwqqrr5tpt34boceovkbyvvk4knhai",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreihkcdbzlgjvooax6pdsr23za4cy43cjcasciksg7vkx3g2p5leh6a",
+    "sizeBytes": 958484,
+    "thumbnailSizeBytes": 8652,
+    "submittedAt": "2026-08-05T18:50:39.199Z",
+    "deployedAt": "2026-08-05T18:51:18.684Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
