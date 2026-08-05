@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:00:13.489Z",
+  "updatedAt": "2026-08-05T19:01:16.603Z",
   "nextParcel": {
-    "x": -126,
+    "x": -125,
     "y": -150
   },
   "pets": [
@@ -564,6 +564,28 @@
       "thumbnailSizeBytes": 6806,
       "submittedAt": "2026-08-05T18:59:21.621Z",
       "deployedAt": "2026-08-05T19:00:13.489Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-patches-cat-0x63",
+      "petName": "Patches Cat",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 3,
+      "clipNames": [
+        "Idle",
+        "Walk",
+        "Run"
+      ],
+      "parcel": "-126,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeia6uruatq7ffbxgcsumqfdda4cmzzrlvraow2j35767x5v7a46qia",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreickfj2h3km5mkqzj2gkz5zc3df32mc5axgzlkpole3jnhzdypg6qi",
+      "sizeBytes": 432536,
+      "thumbnailSizeBytes": 6890,
+      "submittedAt": "2026-08-05T19:00:26.433Z",
+      "deployedAt": "2026-08-05T19:01:16.603Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
