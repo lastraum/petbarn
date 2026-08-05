@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:21:16.830Z",
+  "updatedAt": "2026-08-05T19:22:18.735Z",
   "nextParcel": {
-    "x": -107,
+    "x": -106,
     "y": -150
   },
   "pets": [
@@ -1003,6 +1003,30 @@
       "thumbnailSizeBytes": 5452,
       "submittedAt": "2026-08-05T19:20:29.340Z",
       "deployedAt": "2026-08-05T19:21:16.830Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-elk-iti0",
+      "petName": "Elk",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 5,
+      "clipNames": [
+        "Idle",
+        "AFK",
+        "Run",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-107,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeiab5bj3mdj7doxi3t5qal35vk2k45h6sljiqhavnhpytz43g426ey",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreiaohnzotjtn2cmlwktlw5e4znsa5d2lnnmfqwvlxd2drw4lfn5m24",
+      "sizeBytes": 545756,
+      "thumbnailSizeBytes": 7524,
+      "submittedAt": "2026-08-05T19:21:34.900Z",
+      "deployedAt": "2026-08-05T19:22:18.735Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
