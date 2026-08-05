@@ -1,0 +1,26 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-reindeer-wrbu",
+    "petName": "Reindeer",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-70,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeiffqt2qdruvuhty2qpbt3g6xphk3wc7bhvx5zt5eikef67rngzgiq",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreigun5rt37ysyk45yswmsdoblbpdp7ptcrldsfz7bjphugdcsyy3ti",
+    "sizeBytes": 410136,
+    "thumbnailSizeBytes": 7632,
+    "submittedAt": "2026-08-05T20:01:11.194Z",
+    "deployedAt": "2026-08-05T20:01:58.014Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
