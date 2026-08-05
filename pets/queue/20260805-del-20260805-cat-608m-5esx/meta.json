@@ -1,0 +1,13 @@
+{
+  "id": "20260805-del-20260805-cat-608m-5esx",
+  "action": "delete",
+  "targetId": "20260805-cat-608m",
+  "auth": {
+    "signature": "0xa249526732339178cfa08338cd41854091f5bd572503dbf4a6d2411a712af22c324f8e0e75122280c1f4994f2fb6d190b2853fd5c18939b5508126aa5ede63111b",
+    "timestampMs": 1785901288447,
+    "glbSha256": "none"
+  },
+  "submittedAt": "2026-08-05T03:41:31.216Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
