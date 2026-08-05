@@ -1,0 +1,18 @@
+{
+  "id": "20260805-jaws-9g4h",
+  "action": "update",
+  "targetId": "20260731-jaws-6x33",
+  "auth": {
+    "signature": "0x9416c2f9f587648533aa671930f9c736a49b32ec6bbd90010153710dd646a391484a322b231ef2ce9cc101af793117cf6128283a5c2dae091c51ce0461b3ddf71c",
+    "timestampMs": 1785899771314,
+    "glbSha256": "dc512962034c7e48802b7994451e17da165ba50b5d750b8f025e81fd5fc90774"
+  },
+  "petName": "Jaws",
+  "creatorName": "AwedJob",
+  "type": "flying",
+  "sizeBytes": 267936,
+  "thumbnailSizeBytes": 92657,
+  "submittedAt": "2026-08-05T03:16:13.970Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
