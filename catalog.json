@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:04:34.000Z",
+  "updatedAt": "2026-08-05T19:05:41.716Z",
   "nextParcel": {
-    "x": -122,
+    "x": -121,
     "y": -150
   },
   "pets": [
@@ -655,6 +655,31 @@
       "thumbnailSizeBytes": 7974,
       "submittedAt": "2026-08-05T19:03:43.439Z",
       "deployedAt": "2026-08-05T19:04:34.000Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-cow-bag9",
+      "petName": "Cow",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 6,
+      "clipNames": [
+        "Idle",
+        "AFK",
+        "Run",
+        "Sit",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-122,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeigjpiw6mjvonnrojdnl2gvv553z7pdhkj6u6qbkvvxmflhr23abge",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreihpmb2fk5yoabcnrdbbb3ao3ofmijajsqmdvakbkm6dyouoru5unq",
+      "sizeBytes": 831736,
+      "thumbnailSizeBytes": 8062,
+      "submittedAt": "2026-08-05T19:04:48.189Z",
+      "deployedAt": "2026-08-05T19:05:41.716Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
