@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:11:27.612Z",
+  "updatedAt": "2026-08-05T19:12:31.268Z",
   "nextParcel": {
-    "x": -116,
+    "x": -115,
     "y": -150
   },
   "pets": [
@@ -792,6 +792,30 @@
       "thumbnailSizeBytes": 4294,
       "submittedAt": "2026-08-05T19:10:42.917Z",
       "deployedAt": "2026-08-05T19:11:27.612Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-deer-5l5u",
+      "petName": "Deer",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 5,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Sit",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-116,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeihthiralgqrq6jxrfosm35xyysda5dlua24hjokv26kkazrltviwu",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreiehx77374h7n2pyc6blbsvckkmznpt5bpcc5axiqrskfeai65s4lq",
+      "sizeBytes": 1173156,
+      "thumbnailSizeBytes": 6826,
+      "submittedAt": "2026-08-05T19:11:48.070Z",
+      "deployedAt": "2026-08-05T19:12:31.268Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
