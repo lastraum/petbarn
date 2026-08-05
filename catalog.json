@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:01:16.603Z",
+  "updatedAt": "2026-08-05T19:02:21.972Z",
   "nextParcel": {
-    "x": -125,
+    "x": -124,
     "y": -150
   },
   "pets": [
@@ -586,6 +586,31 @@
       "thumbnailSizeBytes": 6890,
       "submittedAt": "2026-08-05T19:00:26.433Z",
       "deployedAt": "2026-08-05T19:01:16.603Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-chamois-ndal",
+      "petName": "Chamois",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 6,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Sit",
+        "AFK",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-125,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeieibguxu3e2tgjdfsuxkoslk55txa77ilg7niw6oms5jhlqr4uf7i",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreiblaq6q6qrmer6jgwlnaenqkaguds66epul3yfsawhchg5wbooyxa",
+      "sizeBytes": 757228,
+      "thumbnailSizeBytes": 6012,
+      "submittedAt": "2026-08-05T19:01:34.070Z",
+      "deployedAt": "2026-08-05T19:02:21.972Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
