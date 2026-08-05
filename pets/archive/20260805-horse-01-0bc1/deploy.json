@@ -1,0 +1,27 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-horse-01-0bc1",
+    "petName": "Horse 01",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 4,
+    "clipNames": [
+      "Idle",
+      "AFK",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-96,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeifti7ihhv2m73dbhoive6nn5s6vhnetlm5ohlcewi5qgf7wlcbywa",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreigh7owwmz3miuk55vepc5nwuklpbduksug6jxxvmaxgaqhri3fx4u",
+    "sizeBytes": 888252,
+    "thumbnailSizeBytes": 9692,
+    "submittedAt": "2026-08-05T19:33:28.727Z",
+    "deployedAt": "2026-08-05T19:34:14.475Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
