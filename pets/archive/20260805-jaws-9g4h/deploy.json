@@ -1,0 +1,30 @@
+{
+  "action": "update",
+  "targetId": "20260731-jaws-6x33",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260731-jaws-6x33",
+    "petName": "Jaws",
+    "creatorName": "AwedJob",
+    "type": "flying",
+    "animationCount": 4,
+    "clipNames": [
+      "Bite",
+      "Fly",
+      "FlyFast",
+      "Hover"
+    ],
+    "parcel": "-146,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeicfstekozozlmooq7sgtzfoksz22gqyyexvy66e5c6e2p7dqy5riu",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreick7eyq5dgj32fldnz3ixwooqhxbddmbih3ucfpk6ymvnrfcn3qly",
+    "sizeBytes": 267936,
+    "thumbnailSizeBytes": 92657,
+    "submittedAt": "2026-07-31T03:50:48.207Z",
+    "deployedAt": "2026-08-05T03:18:34.873Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-05T03:18:34.873Z"
+  },
+  "dryRun": false
+}

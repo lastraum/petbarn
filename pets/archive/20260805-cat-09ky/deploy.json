@@ -1,0 +1,32 @@
+{
+  "action": "update",
+  "targetId": "20260731-cat-x74c",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260731-cat-x74c",
+    "petName": "Cat",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 6,
+    "clipNames": [
+      "Idle",
+      "AFK",
+      "Run",
+      "Sit",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-148,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeiebacyaau23wigz4sd3fokby2kqfqmu6pbczb32wexu3p6i2qhdii",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreibkedmy5nuqvfkfsufv3tzsxiqkq55ywcoxgknxz7fay6yqvxlyt4",
+    "sizeBytes": 1885352,
+    "thumbnailSizeBytes": 154269,
+    "submittedAt": "2026-07-31T03:40:09.275Z",
+    "deployedAt": "2026-08-05T03:18:05.479Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-05T03:18:05.479Z"
+  },
+  "dryRun": false
+}

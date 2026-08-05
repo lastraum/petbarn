@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-07-31T03:51:32.743Z",
+  "updatedAt": "2026-08-05T03:18:50.225Z",
   "nextParcel": {
-    "x": -145,
+    "x": -144,
     "y": -150
   },
   "pets": [
@@ -49,9 +49,10 @@
       "petName": "Cat",
       "creatorName": "AwedJob",
       "type": "walking",
-      "animationCount": 5,
+      "animationCount": 6,
       "clipNames": [
         "Idle",
+        "AFK",
         "Run",
         "Sit",
         "Trot",
@@ -59,14 +60,15 @@
       ],
       "parcel": "-148,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeig7wabbwq6m5i4tti2ashdmaldewaokcorwhllcu5ebbfmysh52se",
+      "glbCid": "bafybeiebacyaau23wigz4sd3fokby2kqfqmu6pbczb32wexu3p6i2qhdii",
       "thumbnailFile": "models/thumb.png",
-      "thumbnailCid": "bafybeiclzwhxbw7xpbkqzzdwenjnt4p7tf34lwahvioegwups7nbwx2vs4",
-      "sizeBytes": 1419868,
-      "thumbnailSizeBytes": 356105,
+      "thumbnailCid": "bafkreibkedmy5nuqvfkfsufv3tzsxiqkq55ywcoxgknxz7fay6yqvxlyt4",
+      "sizeBytes": 1885352,
+      "thumbnailSizeBytes": 154269,
       "submittedAt": "2026-07-31T03:40:09.275Z",
-      "deployedAt": "2026-07-31T03:41:00.607Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-05T03:18:05.479Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-05T03:18:05.479Z"
     },
     {
       "id": "20260731-parrot-m7st",
@@ -82,35 +84,63 @@
       ],
       "parcel": "-147,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeiguujynvnyqjpbfxhnax4hgkym57frmyvo6tbsfg7plhwxg4yybou",
+      "glbCid": "bafybeid4jamvqggzed6urtl4ijbuwslzfnilo7ht6pkvodzoxjktpcec2e",
       "thumbnailFile": "models/thumb.png",
-      "thumbnailCid": "bafybeigzvjzcylz2xv4c7wiuj2qg2qix6m5o3klctnukq43y65hvavcxoq",
-      "sizeBytes": 599880,
-      "thumbnailSizeBytes": 313608,
+      "thumbnailCid": "bafkreihygcjqqb5736gd3hl2ejiymwwaiowedw3bvkeyjh2luynv6vclgy",
+      "sizeBytes": 599900,
+      "thumbnailSizeBytes": 78384,
       "submittedAt": "2026-07-31T03:46:02.368Z",
-      "deployedAt": "2026-07-31T03:46:47.195Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-05T03:18:50.225Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-05T03:18:50.225Z"
     },
     {
       "id": "20260731-jaws-6x33",
       "petName": "Jaws",
       "creatorName": "AwedJob",
       "type": "flying",
-      "animationCount": 3,
+      "animationCount": 4,
       "clipNames": [
         "Bite",
         "Fly",
-        "FlyFast"
+        "FlyFast",
+        "Hover"
       ],
       "parcel": "-146,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeifzxhobdwisrhk4p4ctmpgolzl6hmrf5taxj2ttnjduwl77devhli",
+      "glbCid": "bafybeicfstekozozlmooq7sgtzfoksz22gqyyexvy66e5c6e2p7dqy5riu",
       "thumbnailFile": "models/thumb.png",
-      "thumbnailCid": "bafybeicvvlx2d3asttychqns7mr6oaehlincsi6bkl5poybbce7u2cweni",
-      "sizeBytes": 322640,
-      "thumbnailSizeBytes": 324793,
+      "thumbnailCid": "bafkreick7eyq5dgj32fldnz3ixwooqhxbddmbih3ucfpk6ymvnrfcn3qly",
+      "sizeBytes": 267936,
+      "thumbnailSizeBytes": 92657,
       "submittedAt": "2026-07-31T03:50:48.207Z",
-      "deployedAt": "2026-07-31T03:51:32.743Z",
+      "deployedAt": "2026-08-05T03:18:34.873Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-05T03:18:34.873Z"
+    },
+    {
+      "id": "20260805-cat-608m",
+      "petName": "Cat",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 6,
+      "clipNames": [
+        "Idle",
+        "AFK",
+        "Run",
+        "Sit",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-145,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeiebacyaau23wigz4sd3fokby2kqfqmu6pbczb32wexu3p6i2qhdii",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreibkedmy5nuqvfkfsufv3tzsxiqkq55ywcoxgknxz7fay6yqvxlyt4",
+      "sizeBytes": 1885352,
+      "thumbnailSizeBytes": 154269,
+      "submittedAt": "2026-08-05T03:15:16.385Z",
+      "deployedAt": "2026-08-05T03:18:19.759Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]

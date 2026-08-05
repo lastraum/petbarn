@@ -1,0 +1,30 @@
+{
+  "action": "update",
+  "targetId": "20260731-parrot-m7st",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260731-parrot-m7st",
+    "petName": "Parrot",
+    "creatorName": "AwedJob",
+    "type": "flying",
+    "animationCount": 4,
+    "clipNames": [
+      "Fly",
+      "Hover",
+      "Perch",
+      "AFK"
+    ],
+    "parcel": "-147,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeid4jamvqggzed6urtl4ijbuwslzfnilo7ht6pkvodzoxjktpcec2e",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreihygcjqqb5736gd3hl2ejiymwwaiowedw3bvkeyjh2luynv6vclgy",
+    "sizeBytes": 599900,
+    "thumbnailSizeBytes": 78384,
+    "submittedAt": "2026-07-31T03:46:02.368Z",
+    "deployedAt": "2026-08-05T03:18:50.225Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-05T03:18:50.225Z"
+  },
+  "dryRun": false
+}
