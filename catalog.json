@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:52:41.306Z",
+  "updatedAt": "2026-08-05T19:53:56.980Z",
   "nextParcel": {
-    "x": -78,
+    "x": -77,
     "y": -150
   },
   "pets": [
@@ -1673,6 +1673,28 @@
       "thumbnailSizeBytes": 6020,
       "submittedAt": "2026-08-05T19:51:56.510Z",
       "deployedAt": "2026-08-05T19:52:41.306Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-pheasant-4v14",
+      "petName": "Pheasant",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 3,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "parcel": "-78,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeigkcibldjlo52dbzzc2gqv7isgiwlr52jqskzxmqgogikchrifvau",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreice2wftvspcnsv4oluiglfir6msyfzqtlaj73o6ua45celpmuyls4",
+      "sizeBytes": 742528,
+      "thumbnailSizeBytes": 9268,
+      "submittedAt": "2026-08-05T19:53:01.162Z",
+      "deployedAt": "2026-08-05T19:53:56.980Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
