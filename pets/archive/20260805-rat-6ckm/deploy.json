@@ -1,0 +1,29 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-rat-6ckm",
+    "petName": "Rat",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 6,
+    "clipNames": [
+      "Idle",
+      "AFK",
+      "Run",
+      "Sit",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-69,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeibstdsxjsrp3ak2gdtyshs7pt4ro7fwa5f3sxhwqoydmo36xweon4",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreibwdzsexun4ygleoe4xomctxach343trvpempwqn5g65hgxr6tnam",
+    "sizeBytes": 469308,
+    "thumbnailSizeBytes": 5850,
+    "submittedAt": "2026-08-05T20:02:16.204Z",
+    "deployedAt": "2026-08-05T20:03:14.735Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
