@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T20:12:54.741Z",
+  "updatedAt": "2026-08-05T20:14:01.068Z",
   "nextParcel": {
-    "x": -59,
+    "x": -58,
     "y": -150
   },
   "pets": [
@@ -2107,6 +2107,28 @@
       "thumbnailSizeBytes": 7110,
       "submittedAt": "2026-08-05T20:12:04.108Z",
       "deployedAt": "2026-08-05T20:12:54.741Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-tuna-i5av",
+      "petName": "Tuna",
+      "creatorName": "AwedJob",
+      "type": "flying",
+      "animationCount": 3,
+      "clipNames": [
+        "Fly",
+        "FlyFast",
+        "Hover"
+      ],
+      "parcel": "-59,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafkreibmcdjkggcf2wbm7lhks6okhzjhia33attlps3j3anthwqg5ncv7a",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreiddjmfk7coxe24hisxzh3vdp334cfbzu4zundfhshcbzrieubrrce",
+      "sizeBytes": 235564,
+      "thumbnailSizeBytes": 4670,
+      "submittedAt": "2026-08-05T20:13:08.825Z",
+      "deployedAt": "2026-08-05T20:14:01.068Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
