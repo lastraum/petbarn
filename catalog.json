@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:49:23.900Z",
+  "updatedAt": "2026-08-05T19:50:46.983Z",
   "nextParcel": {
-    "x": -81,
+    "x": -80,
     "y": -150
   },
   "pets": [
@@ -1601,6 +1601,31 @@
       "thumbnailSizeBytes": 10738,
       "submittedAt": "2026-08-05T19:48:40.932Z",
       "deployedAt": "2026-08-05T19:49:23.900Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-moose-pbk3",
+      "petName": "Moose",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 6,
+      "clipNames": [
+        "Idle",
+        "AFK",
+        "Run",
+        "Sit",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-81,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeiezad4vav5zccuo5ulndd7ni66mfdw2u3ofrn2xsbb7cwhkm3s2eq",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreifaud22y4fwsoqlbni3o57t7dq4dlykq2pacys5hhobu3dsthcnzy",
+      "sizeBytes": 1164420,
+      "thumbnailSizeBytes": 7834,
+      "submittedAt": "2026-08-05T19:49:45.809Z",
+      "deployedAt": "2026-08-05T19:50:46.983Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
