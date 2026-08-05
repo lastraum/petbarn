@@ -1,0 +1,18 @@
+{
+  "id": "20260805-parrot-fu1b",
+  "action": "update",
+  "targetId": "20260731-parrot-m7st",
+  "auth": {
+    "signature": "0x72df5687102a9dec0638242c033dc80c0ada7b3c534c52afb1726c3705734db547163f2f9e13665e977d20931e5f2d6877f3a116d3ca1bcd643c713d2195aed51b",
+    "timestampMs": 1785899819521,
+    "glbSha256": "6fa6c109a60ff256cc9398c2891dbe3456fc89b6f08f47e20dbb787b68c37faf"
+  },
+  "petName": "Parrot",
+  "creatorName": "AwedJob",
+  "type": "flying",
+  "sizeBytes": 599900,
+  "thumbnailSizeBytes": 78384,
+  "submittedAt": "2026-08-05T03:17:03.833Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
