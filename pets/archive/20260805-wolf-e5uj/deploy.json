@@ -1,0 +1,29 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-wolf-e5uj",
+    "petName": "Wolf",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 6,
+    "clipNames": [
+      "Idle",
+      "AFK",
+      "Run",
+      "Sit",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-54,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeifzd7py37ahkgzamc7ndvf732rie6x3c43wsm3qqkvy4wm4hezcye",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreiajyiklsnt4haqo5hcknr2pmltu5bxoc2fqtyaab2wiklc7wpnlzy",
+    "sizeBytes": 596564,
+    "thumbnailSizeBytes": 8808,
+    "submittedAt": "2026-08-05T20:18:34.264Z",
+    "deployedAt": "2026-08-05T20:19:19.341Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
