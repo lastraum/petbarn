@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:55:31.385Z",
+  "updatedAt": "2026-08-05T19:56:20.563Z",
   "nextParcel": {
-    "x": -75,
+    "x": -74,
     "y": -150
   },
   "pets": [
@@ -1739,6 +1739,30 @@
       "thumbnailSizeBytes": 7802,
       "submittedAt": "2026-08-05T19:54:50.166Z",
       "deployedAt": "2026-08-05T19:55:31.385Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-pronghorn-ibdl",
+      "petName": "Pronghorn",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 5,
+      "clipNames": [
+        "Idle",
+        "AFK",
+        "Run",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-75,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeicld43zha344aa3thrhmd3njjqmpogsna4e73jatsxqqi6kbbk634",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreic3ft3rbwd24e4ly4fmagq3r3yvjatzx6tplq6tc4jvdllda47woy",
+      "sizeBytes": 480796,
+      "thumbnailSizeBytes": 6706,
+      "submittedAt": "2026-08-05T19:55:34.448Z",
+      "deployedAt": "2026-08-05T19:56:20.563Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
