@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T20:09:38.896Z",
+  "updatedAt": "2026-08-05T20:10:43.194Z",
   "nextParcel": {
-    "x": -62,
+    "x": -61,
     "y": -150
   },
   "pets": [
@@ -2040,6 +2040,28 @@
       "thumbnailSizeBytes": 7178,
       "submittedAt": "2026-08-05T20:08:49.053Z",
       "deployedAt": "2026-08-05T20:09:38.896Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-tortoise-bg5d",
+      "petName": "Tortoise",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 3,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "parcel": "-62,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeifschapjk3fnxq6bdl2vigctax5lc3jscetbyim2ogzxbq5rmaumu",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreignik3vhmmnkfdiyebotno2d6737y27q6ob7ex7u2xiggzuvxif7m",
+      "sizeBytes": 351036,
+      "thumbnailSizeBytes": 8512,
+      "submittedAt": "2026-08-05T20:09:54.491Z",
+      "deployedAt": "2026-08-05T20:10:43.194Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
