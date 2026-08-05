@@ -1,0 +1,27 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-crocodile-r3yl",
+    "petName": "Crocodile",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 4,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "AFK",
+      "Walk"
+    ],
+    "parcel": "-119,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeibc7lh6sbc3vj4xmivqom6r2nmkbz42obmwwajbbiw6hdfninjuv4",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreibsxtipusjczgubn2den7a3lqdkkuxdbe4rcztuc5sus7bb5n7ila",
+    "sizeBytes": 378488,
+    "thumbnailSizeBytes": 5824,
+    "submittedAt": "2026-08-05T19:08:33.017Z",
+    "deployedAt": "2026-08-05T19:09:17.876Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
