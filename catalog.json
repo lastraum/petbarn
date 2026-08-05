@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T18:49:21.779Z",
+  "updatedAt": "2026-08-05T18:50:27.774Z",
   "nextParcel": {
-    "x": -136,
+    "x": -135,
     "y": -150
   },
   "pets": [
@@ -327,6 +327,28 @@
       "thumbnailSizeBytes": 5502,
       "submittedAt": "2026-08-05T18:48:29.569Z",
       "deployedAt": "2026-08-05T18:49:21.779Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-bluegill-z4mm",
+      "petName": "Bluegill",
+      "creatorName": "AwedJob",
+      "type": "flying",
+      "animationCount": 3,
+      "clipNames": [
+        "Fly",
+        "FlyFast",
+        "Hover"
+      ],
+      "parcel": "-136,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeifqxf5qfxf3psyorj5czuoeou6ixo33p26frxllt5olfbuj2pi2mm",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreidnnhn26besqiuyuxmi55djyt6jwmyppvtck5b7qsxcfalct7hi6u",
+      "sizeBytes": 288772,
+      "thumbnailSizeBytes": 10520,
+      "submittedAt": "2026-08-05T18:49:34.723Z",
+      "deployedAt": "2026-08-05T18:50:27.774Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
