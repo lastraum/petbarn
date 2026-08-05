@@ -1,0 +1,28 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-donkey-xomw",
+    "petName": "Donkey",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 5,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "AFK",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-111,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeid6efokucertcy5x5mfef7vm3j2pxyxwg5eijrcewvewdvwragdcy",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreicvdsanz3mvf2msoaaostszljgv7tdzx3x37aeas3xm2bno6fjjkq",
+    "sizeBytes": 593216,
+    "thumbnailSizeBytes": 4862,
+    "submittedAt": "2026-08-05T19:17:13.500Z",
+    "deployedAt": "2026-08-05T19:18:07.983Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
