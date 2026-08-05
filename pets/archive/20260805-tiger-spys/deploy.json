@@ -1,0 +1,28 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-tiger-spys",
+    "petName": "Tiger",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 5,
+    "clipNames": [
+      "Idle",
+      "AFK",
+      "Run",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-63,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeianq2at55csn7cwvk3oh3q6jqf4ribrmqb26ylloj6lk5tn7cqwu4",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreidd3ireo2ji2pjn3u5ap4wkh7hppwbrnbzbs2fzwavwddnfzlohiq",
+    "sizeBytes": 1404188,
+    "thumbnailSizeBytes": 7178,
+    "submittedAt": "2026-08-05T20:08:49.053Z",
+    "deployedAt": "2026-08-05T20:09:38.896Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
