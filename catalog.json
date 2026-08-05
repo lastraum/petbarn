@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:25:37.943Z",
+  "updatedAt": "2026-08-05T19:26:53.036Z",
   "nextParcel": {
-    "x": -103,
+    "x": -102,
     "y": -150
   },
   "pets": [
@@ -1098,6 +1098,28 @@
       "thumbnailSizeBytes": 8632,
       "submittedAt": "2026-08-05T19:24:49.277Z",
       "deployedAt": "2026-08-05T19:25:37.943Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-gazelle-4acp",
+      "petName": "Gazelle",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 3,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "parcel": "-103,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeifxazyiy2ka2o3jj72nnnzctehij4xb4duzakwwkwwya5xw3kqgeq",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreiecectekmcdpvtjgrwojanef4jua3ngmi4thrrtba2bqdqyj3ftym",
+      "sizeBytes": 351668,
+      "thumbnailSizeBytes": 5028,
+      "submittedAt": "2026-08-05T19:25:54.143Z",
+      "deployedAt": "2026-08-05T19:26:53.036Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
