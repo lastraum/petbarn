@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:36:34.540Z",
+  "updatedAt": "2026-08-05T19:37:44.356Z",
   "nextParcel": {
-    "x": -93,
+    "x": -92,
     "y": -150
   },
   "pets": [
@@ -1325,6 +1325,30 @@
       "thumbnailSizeBytes": 10204,
       "submittedAt": "2026-08-05T19:35:39.384Z",
       "deployedAt": "2026-08-05T19:36:34.540Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-kangaroo-k5o4",
+      "petName": "Kangaroo",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 5,
+      "clipNames": [
+        "Idle",
+        "AFK",
+        "Trot",
+        "Walk",
+        "Run"
+      ],
+      "parcel": "-93,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeib6mpmjc7aqs4ldj6r4agzpg7kr4cctrmo3ulbfwdregmk5zymsda",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreiave46afvtr4up6hlejcnqdvzfx2j55brffytp3ctyhayhvl2wiga",
+      "sizeBytes": 1831580,
+      "thumbnailSizeBytes": 5516,
+      "submittedAt": "2026-08-05T19:36:44.563Z",
+      "deployedAt": "2026-08-05T19:37:44.356Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
