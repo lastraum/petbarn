@@ -1,0 +1,27 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-toucan-cr1w",
+    "petName": "Toucan",
+    "creatorName": "AwedJob",
+    "type": "flying",
+    "animationCount": 4,
+    "clipNames": [
+      "FlyFast",
+      "Fly",
+      "Perch",
+      "Hover"
+    ],
+    "parcel": "-60,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafkreiax7qrygni7x5ifh33h26plcvjucdwlsina5ihx3kwcfjhadhndpq",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreicha7ztvo2svht26bzkmhaqdtrrglcybr3dlpdhhdnic4bc3uwuom",
+    "sizeBytes": 154760,
+    "thumbnailSizeBytes": 7110,
+    "submittedAt": "2026-08-05T20:12:04.108Z",
+    "deployedAt": "2026-08-05T20:12:54.741Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
