@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:03:29.263Z",
+  "updatedAt": "2026-08-05T19:04:34.000Z",
   "nextParcel": {
-    "x": -123,
+    "x": -122,
     "y": -150
   },
   "pets": [
@@ -633,6 +633,28 @@
       "thumbnailSizeBytes": 10650,
       "submittedAt": "2026-08-05T19:02:38.743Z",
       "deployedAt": "2026-08-05T19:03:29.263Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-red-chicken-hhi9",
+      "petName": "Red Chicken",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 3,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "parcel": "-123,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeidbnkknrsw7jdnoj3qz72yphz5s5kb6gfo76zhimn3u3agrd4eu54",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreiblhwnesc3qu5e4btf33jqnc5h2gute5dtevbofnam57345w7jyoy",
+      "sizeBytes": 325312,
+      "thumbnailSizeBytes": 7974,
+      "submittedAt": "2026-08-05T19:03:43.439Z",
+      "deployedAt": "2026-08-05T19:04:34.000Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
