@@ -1,0 +1,28 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-eagle-1l6x",
+    "petName": "Eagle",
+    "creatorName": "AwedJob",
+    "type": "flying",
+    "animationCount": 5,
+    "clipNames": [
+      "Fly",
+      "FlyFast",
+      "Perch",
+      "AFK",
+      "Hover"
+    ],
+    "parcel": "-109,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeifofzwmr77q6rl3sromsb63ioq3twft5o3zl7lsl2qyhws2hjw6cu",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreiewzb5zjakxnuvuqd55phvk7mus532i7oqivpilajnos5qb56abeq",
+    "sizeBytes": 531444,
+    "thumbnailSizeBytes": 5936,
+    "submittedAt": "2026-08-05T19:19:24.634Z",
+    "deployedAt": "2026-08-05T19:20:21.244Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
