@@ -1,0 +1,27 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-lion-02-e6nm",
+    "petName": "Lion 02",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 4,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-88,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeiaoowpb34xowkejipcgnvell7smdwfedtc4lr7fujncru3awmyqyy",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreif3vvtrc5rsjbfnyyk7c56xlxen6pos4rn6yyastqwjwxsyweozri",
+    "sizeBytes": 2085280,
+    "thumbnailSizeBytes": 8494,
+    "submittedAt": "2026-08-05T19:42:09.718Z",
+    "deployedAt": "2026-08-05T19:43:08.809Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
