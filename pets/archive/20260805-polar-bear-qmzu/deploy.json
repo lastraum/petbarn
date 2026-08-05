@@ -1,0 +1,26 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-polar-bear-qmzu",
+    "petName": "Polar Bear",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-76,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeigxfazboorr7ytcdbvncv6dukhty3n67htdpkbjy6e7pvsygw7gpa",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreiaaqjejxfhkoeul7vkfayyfm5y653gumv5qb2o4frvga4q3q5igk4",
+    "sizeBytes": 367184,
+    "thumbnailSizeBytes": 7802,
+    "submittedAt": "2026-08-05T19:54:50.166Z",
+    "deployedAt": "2026-08-05T19:55:31.385Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
