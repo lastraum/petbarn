@@ -1,0 +1,26 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-bighorn-sheep-lfau",
+    "petName": "Bighorn Sheep",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-141,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeifyagtd3nwstnqgz5y6nceeuysew4egpyuj7eytjcpjlftx54wm4e",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreieg5gh5guu474sfjlumvqwgnb2z5zj2sn6gsmzfzceuipvcwal2qu",
+    "sizeBytes": 371680,
+    "thumbnailSizeBytes": 106448,
+    "submittedAt": "2026-08-05T03:37:49.266Z",
+    "deployedAt": "2026-08-05T03:44:33.935Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}

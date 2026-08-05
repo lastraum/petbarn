@@ -1,0 +1,28 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-mink-ywex",
+    "petName": "Mink",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 5,
+    "clipNames": [
+      "Idle",
+      "AFK",
+      "Run",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-139,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeia2vmnv4er57vllq5yqsbfitq6bhkhtfwbp3zmcvohlbpsk7diom4",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreibrdgmrxsu6hfw4g3aww443zvqjy5hpmjmmvuldosfa6e4qphvw3m",
+    "sizeBytes": 1246400,
+    "thumbnailSizeBytes": 52454,
+    "submittedAt": "2026-08-05T03:36:27.959Z",
+    "deployedAt": "2026-08-05T03:45:26.216Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}

@@ -1,0 +1,27 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-aligator-fkxs",
+    "petName": "Aligator",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 4,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-144,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeidxtt66khqfl6rvmertgtvzemgn2o4ht5te5jh7mkqo77mvkjaliy",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreidrbqeuxmejivw6dmqbuvz4y4onhh3fw2g2kd5a4m5hqgehboeqt4",
+    "sizeBytes": 1323532,
+    "thumbnailSizeBytes": 48056,
+    "submittedAt": "2026-08-05T03:36:03.260Z",
+    "deployedAt": "2026-08-05T03:43:54.982Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}

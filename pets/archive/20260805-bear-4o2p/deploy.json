@@ -1,0 +1,29 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-bear-4o2p",
+    "petName": "Bear",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 6,
+    "clipNames": [
+      "Idle",
+      "AFK",
+      "Run",
+      "Sit",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-143,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeiapilfijkojp43q7pmfmfqpmoy2cadk73m5b3kovi56kz4yet6rfq",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreibscqnwr2v4njovdidnekxhklb6gmekl4kq6hni6z7tseo5fqpwli",
+    "sizeBytes": 613000,
+    "thumbnailSizeBytes": 130842,
+    "submittedAt": "2026-08-05T03:37:05.065Z",
+    "deployedAt": "2026-08-05T03:44:08.004Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}

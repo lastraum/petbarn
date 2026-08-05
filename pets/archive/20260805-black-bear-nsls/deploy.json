@@ -1,0 +1,28 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-black-bear-nsls",
+    "petName": "Black Bear",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 5,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Sit",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-140,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeiclmfyonoxuckszenwfsodqp6rb7t5qfxeoilbe74fyr2mls6463e",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreibqf72ajb74rrejra4kpctm7twxacxzdmuuyrogpan5ux2fez7hza",
+    "sizeBytes": 1539964,
+    "thumbnailSizeBytes": 113368,
+    "submittedAt": "2026-08-05T03:39:55.310Z",
+    "deployedAt": "2026-08-05T03:44:46.797Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
