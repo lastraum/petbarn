@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:28:49.875Z",
+  "updatedAt": "2026-08-05T19:30:04.442Z",
   "nextParcel": {
-    "x": -100,
+    "x": -99,
     "y": -150
   },
   "pets": [
@@ -1166,6 +1166,28 @@
       "thumbnailSizeBytes": 4706,
       "submittedAt": "2026-08-05T19:28:03.552Z",
       "deployedAt": "2026-08-05T19:28:49.875Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-guineafowl-3rvk",
+      "petName": "Guineafowl",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 3,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "parcel": "-100,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeihv6xqm2zkod6a3bnfbeecsis6jtlytv6j7wcnk5el264hwpfpuku",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreicn55nahpwyaecuihcj77i5uwcwvqy7saojya54s3c26g7e2sv2qu",
+      "sizeBytes": 746284,
+      "thumbnailSizeBytes": 8734,
+      "submittedAt": "2026-08-05T19:29:10.036Z",
+      "deployedAt": "2026-08-05T19:30:04.442Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
