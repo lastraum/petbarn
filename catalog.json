@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:56:20.563Z",
+  "updatedAt": "2026-08-05T19:57:30.374Z",
   "nextParcel": {
-    "x": -74,
+    "x": -73,
     "y": -150
   },
   "pets": [
@@ -1763,6 +1763,29 @@
       "thumbnailSizeBytes": 6706,
       "submittedAt": "2026-08-05T19:55:34.448Z",
       "deployedAt": "2026-08-05T19:56:20.563Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-puma-8rgu",
+      "petName": "Puma",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 4,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-74,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeibqmy4hwvv3qp6hx62zd6uqwc4jxc3ukz7cjmszilwovlpa4jzj3q",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreied6dt6d3wy6z5nka7etbnkf7wgf4dgbrjftp3mdgkgbtkcayqlmy",
+      "sizeBytes": 1380676,
+      "thumbnailSizeBytes": 7840,
+      "submittedAt": "2026-08-05T19:56:39.451Z",
+      "deployedAt": "2026-08-05T19:57:30.374Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
