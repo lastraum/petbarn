@@ -1,0 +1,27 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-white-rhino-e6z9",
+    "petName": "White Rhino",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 4,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-66,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeifoudv4zugwdamt57tb2amsqvnk5tjtqiozjdhnuk5q4sxsdr6xhy",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreic5zbodi4q2ayq6focdn6jv633n55xhhuoqsv3wlk54d2icwy6nma",
+    "sizeBytes": 819256,
+    "thumbnailSizeBytes": 7622,
+    "submittedAt": "2026-08-05T20:05:33.103Z",
+    "deployedAt": "2026-08-05T20:06:26.655Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
