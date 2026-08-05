@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:32:10.694Z",
+  "updatedAt": "2026-08-05T19:33:20.740Z",
   "nextParcel": {
-    "x": -97,
+    "x": -96,
     "y": -150
   },
   "pets": [
@@ -1233,6 +1233,29 @@
       "thumbnailSizeBytes": 7632,
       "submittedAt": "2026-08-05T19:31:19.448Z",
       "deployedAt": "2026-08-05T19:32:10.694Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-honey-badger-tsmf",
+      "petName": "Honey Badger",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 4,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-97,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeiehehxt4mhpkfhuswd2f6tdx7izhw37evcyp2b7gxebtex3lf3azy",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreia64oconufsgomjhmyn2c5gt6wqkw43qvbrokk62kteg6eutxez3e",
+      "sizeBytes": 735108,
+      "thumbnailSizeBytes": 7494,
+      "submittedAt": "2026-08-05T19:32:24.007Z",
+      "deployedAt": "2026-08-05T19:33:20.740Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
