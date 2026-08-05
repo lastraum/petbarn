@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:12:31.268Z",
+  "updatedAt": "2026-08-05T19:13:48.300Z",
   "nextParcel": {
-    "x": -115,
+    "x": -114,
     "y": -150
   },
   "pets": [
@@ -816,6 +816,28 @@
       "thumbnailSizeBytes": 6826,
       "submittedAt": "2026-08-05T19:11:48.070Z",
       "deployedAt": "2026-08-05T19:12:31.268Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-doberman-gk2d",
+      "petName": "Doberman",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 3,
+      "clipNames": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "parcel": "-115,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeifykhcc3ckedjj23dqfjrqexqwyyhse4sx6lpe53fa7utmhw7qwia",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreib4wnfwxovcmqv2ly75qquhqsuk33prq4nc3zmdwt5jkkrkagz2sy",
+      "sizeBytes": 294224,
+      "thumbnailSizeBytes": 4360,
+      "submittedAt": "2026-08-05T19:12:53.063Z",
+      "deployedAt": "2026-08-05T19:13:48.300Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
