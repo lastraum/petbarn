@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T19:50:46.983Z",
+  "updatedAt": "2026-08-05T19:51:48.040Z",
   "nextParcel": {
-    "x": -80,
+    "x": -79,
     "y": -150
   },
   "pets": [
@@ -1626,6 +1626,31 @@
       "thumbnailSizeBytes": 7834,
       "submittedAt": "2026-08-05T19:49:45.809Z",
       "deployedAt": "2026-08-05T19:50:46.983Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260805-mountain-goat-0l2s",
+      "petName": "Mountain Goat",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 6,
+      "clipNames": [
+        "Idle",
+        "AFK",
+        "Run",
+        "Sit",
+        "Trot",
+        "Walk"
+      ],
+      "parcel": "-80,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeifibxhono7n4nauseh3kk4zj72mb3hzqlpvfewvvcnzw423ns3fse",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreiagb4yvhwfcpfec6sncmkmbciubw4koud6amaf6bzg3lds6cetnli",
+      "sizeBytes": 946220,
+      "thumbnailSizeBytes": 5720,
+      "submittedAt": "2026-08-05T19:50:50.937Z",
+      "deployedAt": "2026-08-05T19:51:48.040Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
