@@ -1,0 +1,26 @@
+{
+  "action": "create",
+  "entry": {
+    "id": "20260805-coyote-5x8u",
+    "petName": "Coyote",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-121,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeido76izw3s5y77uq35l2s6qz76gznqze2emoeicz7dvauu6ophb5u",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreibogfxioxqa6di2pmt3xxtbi6nbow2wysdmi5j3tvdjcrlzuy56zu",
+    "sizeBytes": 416712,
+    "thumbnailSizeBytes": 8356,
+    "submittedAt": "2026-08-05T19:06:23.777Z",
+    "deployedAt": "2026-08-05T19:07:11.292Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
