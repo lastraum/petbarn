@@ -1,0 +1,13 @@
+{
+  "id": "20260806-del-20260805-crab-mcda-oc6k",
+  "action": "delete",
+  "targetId": "20260805-crab-mcda",
+  "auth": {
+    "signature": "0xb8366bfdfcc2e0c2204658d34662902b482e95a57df2f57b43ecd288d6134b9872e93698f90aa51872e15bc504855a698357cb59358df5dbf2ec51ce4063d8aa1c",
+    "timestampMs": 1786032288132,
+    "glbSha256": "none"
+  },
+  "submittedAt": "2026-08-06T16:04:50.657Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
