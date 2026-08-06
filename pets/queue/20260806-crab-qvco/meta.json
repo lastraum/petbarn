@@ -1,0 +1,18 @@
+{
+  "id": "20260806-crab-qvco",
+  "action": "update",
+  "targetId": "20260805-crab-mcda",
+  "auth": {
+    "signature": "0x6993d5c0d9f38bdea6287c0fea824803cb689bd65e8ae7103a653b8aab381251399d953a21f7ae8a1f0587161bbfd3ad434e7f39ad81044020fe4e06e4e71be31c",
+    "timestampMs": 1786031965787,
+    "glbSha256": "f2dc620bee7fd82542e68dd9cc0cb7b05c3b5bb5fc2c55bd91d0dc7a43ad6b46"
+  },
+  "petName": "Crab",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 413456,
+  "thumbnailSizeBytes": 80535,
+  "submittedAt": "2026-08-06T15:59:29.163Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
