@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-05T20:19:19.341Z",
+  "updatedAt": "2026-08-10T23:32:55.725Z",
   "nextParcel": {
-    "x": -53,
+    "x": -52,
     "y": -150
   },
   "pets": [
@@ -2250,6 +2250,29 @@
       "thumbnailSizeBytes": 8808,
       "submittedAt": "2026-08-05T20:18:34.264Z",
       "deployedAt": "2026-08-05T20:19:19.341Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+    },
+    {
+      "id": "20260810-african-elephant-fahm",
+      "petName": "African Elephant",
+      "creatorName": "AwedJob",
+      "type": "walking",
+      "animationCount": 4,
+      "clipNames": [
+        "Idle",
+        "AFK",
+        "Run",
+        "Walk"
+      ],
+      "parcel": "-53,-150",
+      "glbFile": "models/pet.glb",
+      "glbCid": "bafybeiblublvalzt2ya6ftmiizxt6xiy4oaq2l27uqp4wtmywuae5js6pi",
+      "thumbnailFile": "models/thumb.webp",
+      "thumbnailCid": "bafkreieqyzl46gr5txlrx2k6tj5k2hmetocp6bxwg4q7mxe6zhq62ojx34",
+      "sizeBytes": 1995632,
+      "thumbnailSizeBytes": 10014,
+      "submittedAt": "2026-08-10T23:32:03.210Z",
+      "deployedAt": "2026-08-10T23:32:55.725Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     }
   ]
