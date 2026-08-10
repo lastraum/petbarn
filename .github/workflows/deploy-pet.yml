@@ -20,6 +20,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Full history so git pull --rebase can recover from Worker tip moves
+          # during burst submissions (default fetch-depth: 1 is flaky for rebase).
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -66,9 +70,25 @@ jobs:
             git commit -m "chore(petbarn): deploy queue → catalog"
             # Worker commits can land mid-run (burst submissions) — rebase and
             # retry so the run's catalog changes aren't lost to a push race.
+            # IMPORTANT: a failed `git push` inside `if` does not trip `set -e`,
+            # so track success and hard-fail if every attempt is rejected.
+            # Only rebase when another push attempt remains (no useless rebase
+            # after the final failure, which could leave the step exit 0).
+            pushed=0
             for i in 1 2 3; do
-              if git push; then break; fi
-              echo "push rejected (attempt $i) — rebasing onto latest main"
-              git pull --rebase origin main || exit 1
+              if git push; then
+                pushed=1
+                break
+              fi
+              if [ "$i" -lt 3 ]; then
+                echo "push rejected (attempt $i) — rebasing onto latest main"
+                git pull --rebase origin main || exit 1
+              else
+                echo "push rejected (attempt $i) — no retries left" >&2
+              fi
             done
+            if [ "$pushed" -ne 1 ]; then
+              echo "ERROR: git push failed after 3 attempts" >&2
+              exit 1
+            fi
           fi
