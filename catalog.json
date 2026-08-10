@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-10T23:34:07.777Z",
+  "updatedAt": "2026-08-10T23:59:04.871Z",
   "nextParcel": {
     "x": -51,
     "y": -150
@@ -997,13 +997,14 @@
       "parcel": "-108,-150",
       "glbFile": "models/pet.glb",
       "glbCid": "bafybeifkrlye5m232ftzgyth3ta5arieczelyrzdl5ei752wjuztsoxoe4",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreifixttnc5epj5h7na2qowjm3d4w33dqprtr7v4u2klirahnml2goe",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreidpd227kvnnrr6y6hj34se42qprh3tsx4hza465rkhy4zk5pfyqi4",
       "sizeBytes": 531280,
-      "thumbnailSizeBytes": 5452,
+      "thumbnailSizeBytes": 110923,
       "submittedAt": "2026-08-05T19:20:29.340Z",
-      "deployedAt": "2026-08-05T19:21:16.830Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-10T23:59:04.871Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-10T23:59:04.871Z"
     },
     {
       "id": "20260805-elk-iti0",
