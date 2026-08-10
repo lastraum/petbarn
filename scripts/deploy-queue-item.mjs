@@ -197,7 +197,22 @@ async function updateQueueItem(id, meta, dryRun) {
 async function deleteQueueItem(id, meta, dryRun) {
   const qDir = queueItemDir(id)
   const catalog = readCatalog()
-  const target = requireTarget(catalog, meta.targetId, 'delete')
+  // Idempotent delete: a burst of submissions can queue several deletes of the
+  // same listing (each push cancels the prior run, so entries accumulate and
+  // are processed together later). The first delete wins; the duplicates must
+  // archive as no-ops — throwing here fails the whole run, the commit step is
+  // skipped, and every already-processed item in the run is rolled back.
+  const target = (catalog.pets || []).find((p) => p.id === meta.targetId)
+  if (!target) {
+    console.warn(`[petbarn] delete ${meta.targetId}: not in catalog — archiving as no-op`)
+    archiveQueueItem(id, qDir, null, {
+      action: 'delete',
+      targetId: meta.targetId,
+      noop: true,
+      dryRun
+    })
+    return { skipped: true, action: 'delete', noop: true, targetId: meta.targetId }
+  }
   const signer = verifyActionAuth('delete', meta, target)
 
   const parcel = parseParcel(target.parcel)
