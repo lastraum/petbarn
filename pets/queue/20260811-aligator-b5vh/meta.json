@@ -1,0 +1,18 @@
+{
+  "id": "20260811-aligator-b5vh",
+  "action": "update",
+  "targetId": "20260805-aligator-fkxs",
+  "auth": {
+    "signature": "0x4610df06a4d61ff53baa2cf56463dd480ee12bb83f5f352f958194720af21c9639ce0cb8be8fb5e921a430544e84a910b3074357ba486acd68d7bb8172dcd1441b",
+    "timestampMs": 1786492434202,
+    "glbSha256": "758ff8f6bedcfbd5456fdd4ed70d81ab9e3c5f96806e30e2986d3b621d7de88a"
+  },
+  "petName": "Aligator",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 1392312,
+  "thumbnailSizeBytes": 48056,
+  "submittedAt": "2026-08-11T23:54:00.690Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
