@@ -1,0 +1,31 @@
+{
+  "action": "update",
+  "targetId": "20260805-sika-deer-4qeq",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-sika-deer-4qeq",
+    "petName": "Sika Deer",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 5,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "AFK",
+      "Trot",
+      "Walk"
+    ],
+    "parcel": "-117,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeifosd7zy7j7sbg7svegxchpnduw4twvcmbhz55gu2kisu67jw2yaq",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreih7wt2fvborkwk3movgzr7veizpr2j3r2kfsqvhugc2ad5jkrctf4",
+    "sizeBytes": 1281704,
+    "thumbnailSizeBytes": 75791,
+    "submittedAt": "2026-08-05T19:10:42.917Z",
+    "deployedAt": "2026-08-12T00:47:50.333Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T00:47:50.333Z"
+  },
+  "dryRun": false
+}
