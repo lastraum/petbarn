@@ -1,0 +1,29 @@
+{
+  "action": "update",
+  "targetId": "20260805-goose-w5bi",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-goose-w5bi",
+    "petName": "Goose",
+    "creatorName": "AwedJob",
+    "type": "flying",
+    "animationCount": 3,
+    "clipNames": [
+      "Fly",
+      "FlyFast",
+      "Hover"
+    ],
+    "parcel": "-101,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeibjyj4qg5iqxeu6mlf56kc7pp4sw6titb35ytd75r7ygimddrkpye",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreicahiob2rbho2jjolsakq7etikckzvqzdelxxeeqelife3wbsplay",
+    "sizeBytes": 899532,
+    "thumbnailSizeBytes": 49882,
+    "submittedAt": "2026-08-05T19:28:03.552Z",
+    "deployedAt": "2026-08-12T01:12:41.083Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T01:12:41.083Z"
+  },
+  "dryRun": false
+}
