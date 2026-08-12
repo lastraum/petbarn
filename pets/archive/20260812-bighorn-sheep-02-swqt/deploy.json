@@ -1,0 +1,30 @@
+{
+  "action": "update",
+  "targetId": "20260805-bighorn-sheep-02-rdpj",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-bighorn-sheep-02-rdpj",
+    "petName": "Bighorn Sheep 02",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 4,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Sit",
+      "Walk"
+    ],
+    "parcel": "-142,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeifernjx44efllxef6cfpgdtz7iq6rqeaf4ukp4wn3klottjqrqjam",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreigxn7muei7ozk2w2zciqpm722dtshlxlyht65xk23w523ffjja4e4",
+    "sizeBytes": 957152,
+    "thumbnailSizeBytes": 100797,
+    "submittedAt": "2026-08-05T03:38:23.377Z",
+    "deployedAt": "2026-08-12T01:07:43.248Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T01:07:43.248Z"
+  },
+  "dryRun": false
+}
