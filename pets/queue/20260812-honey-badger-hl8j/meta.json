@@ -1,0 +1,18 @@
+{
+  "id": "20260812-honey-badger-hl8j",
+  "action": "update",
+  "targetId": "20260805-honey-badger-tsmf",
+  "auth": {
+    "signature": "0x2417fd4d7aaa3f8de027e704f81a7cc12aad70b5b4681974a8078b913619ae152556388a697cd45ea6e6f2f31c0b284a97159a80e9b1e5a20348a14e8854f9341c",
+    "timestampMs": 1786497554163,
+    "glbSha256": "f2b6eceb41cc605d7cc5f1671202bc39d16d903b7f4e90a90dc88395e953d937"
+  },
+  "petName": "Honey Badger",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 707720,
+  "thumbnailSizeBytes": 119677,
+  "submittedAt": "2026-08-12T01:19:21.000Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
