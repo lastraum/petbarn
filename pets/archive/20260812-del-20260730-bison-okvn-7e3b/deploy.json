@@ -1,0 +1,25 @@
+{
+  "action": "delete",
+  "targetId": "20260730-bison-okvn",
+  "authorizedBy": "operator-force",
+  "force": true,
+  "removedEntry": {
+    "id": "20260730-bison-okvn",
+    "petName": "Bison",
+    "creatorName": "Kirzoz",
+    "type": "walking",
+    "animationCount": 0,
+    "clipNames": [],
+    "parcel": "-149,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeic5f5rq2bwqcrr6kc2spjnnctgwih6ziupcikja7ukxh5lw2etuiu",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreiabmjrehcz7tzalm3di3ng5dznyjgqvf2buj7kmryuazvhhvnrktu",
+    "sizeBytes": 432800,
+    "thumbnailSizeBytes": 7590,
+    "submittedAt": "2026-07-30T20:11:24.334Z",
+    "deployedAt": "2026-07-30T20:12:20.717Z",
+    "wallet": "0x10e7d9e27a2b6cd8a2e879b3213fd7b1e55eb63d"
+  },
+  "dryRun": false
+}
