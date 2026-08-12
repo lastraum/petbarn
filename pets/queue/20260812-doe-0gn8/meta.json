@@ -1,0 +1,18 @@
+{
+  "id": "20260812-doe-0gn8",
+  "action": "update",
+  "targetId": "20260805-doe-wuwx",
+  "auth": {
+    "signature": "0x4a3fb3b6117ea709f796cf97b0a83020a9cedf8ddc74472d455f38b381c736a6564cf0c27b2f9c5a9e0488e71e9f1437a9b21e5c49a8df57ceeab33c70bd76771c",
+    "timestampMs": 1786495925533,
+    "glbSha256": "76c85ddfba0f2c36a45871f73e53da9d37eec307aec3a4fc71239d0c59a50b3c"
+  },
+  "petName": "Doe",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 1448160,
+  "thumbnailSizeBytes": 115537,
+  "submittedAt": "2026-08-12T00:52:13.033Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
