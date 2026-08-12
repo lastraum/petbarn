@@ -1,0 +1,29 @@
+{
+  "action": "update",
+  "targetId": "20260805-sand-mouse-poq7",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-sand-mouse-poq7",
+    "petName": "Sand Mouse",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-64,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeiexr4rnilktob2wktm423fcyjio5e7smjrgqapd4qceqpdqo6hisa",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreiawqudwjjeiu3pw5m5ysftwf25437whraopwawxig76joor56pdty",
+    "sizeBytes": 338940,
+    "thumbnailSizeBytes": 66478,
+    "submittedAt": "2026-08-05T20:07:43.998Z",
+    "deployedAt": "2026-08-12T01:28:28.796Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T01:28:28.796Z"
+  },
+  "dryRun": false
+}

@@ -1,0 +1,30 @@
+{
+  "action": "update",
+  "targetId": "20260805-mountain-goat-0l2s",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-mountain-goat-0l2s",
+    "petName": "Mountain Goat",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 4,
+    "clipNames": [
+      "Walk",
+      "AFK",
+      "Sit",
+      "Idle"
+    ],
+    "parcel": "-80,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeifkchdkllgigq4cvk2q62lxj3mcvynarcmmsa3xec3ul5drxg7skq",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreihmc7fkb4apynd3i37zb5bob5c5yb6v5eightoq37tcj7eepuyhiy",
+    "sizeBytes": 870424,
+    "thumbnailSizeBytes": 92842,
+    "submittedAt": "2026-08-05T19:50:50.937Z",
+    "deployedAt": "2026-08-12T01:28:17.918Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T01:28:17.918Z"
+  },
+  "dryRun": false
+}

@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T01:22:29.878Z",
+  "updatedAt": "2026-08-12T01:28:28.796Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -1656,25 +1656,24 @@
       "petName": "Mountain Goat",
       "creatorName": "AwedJob",
       "type": "walking",
-      "animationCount": 6,
+      "animationCount": 4,
       "clipNames": [
-        "Idle",
+        "Walk",
         "AFK",
-        "Run",
         "Sit",
-        "Trot",
-        "Walk"
+        "Idle"
       ],
       "parcel": "-80,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeifibxhono7n4nauseh3kk4zj72mb3hzqlpvfewvvcnzw423ns3fse",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreiagb4yvhwfcpfec6sncmkmbciubw4koud6amaf6bzg3lds6cetnli",
-      "sizeBytes": 946220,
-      "thumbnailSizeBytes": 5720,
+      "glbCid": "bafybeifkchdkllgigq4cvk2q62lxj3mcvynarcmmsa3xec3ul5drxg7skq",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreihmc7fkb4apynd3i37zb5bob5c5yb6v5eightoq37tcj7eepuyhiy",
+      "sizeBytes": 870424,
+      "thumbnailSizeBytes": 92842,
       "submittedAt": "2026-08-05T19:50:50.937Z",
-      "deployedAt": "2026-08-05T19:51:48.040Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T01:28:17.918Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T01:28:17.918Z"
     },
     {
       "id": "20260805-ostrich-hrw7",
@@ -2032,14 +2031,15 @@
       ],
       "parcel": "-64,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeid3zavy372igciaobelgxqfs6xn46e4ckwcuso5yzbbw2pcbwhrdu",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreih7pxy2gqqwk32y4eq5jyy5fcylytfjn4mk545yxdwlpe2z2q6k6m",
-      "sizeBytes": 338612,
-      "thumbnailSizeBytes": 4452,
+      "glbCid": "bafybeiexr4rnilktob2wktm423fcyjio5e7smjrgqapd4qceqpdqo6hisa",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreiawqudwjjeiu3pw5m5ysftwf25437whraopwawxig76joor56pdty",
+      "sizeBytes": 338940,
+      "thumbnailSizeBytes": 66478,
       "submittedAt": "2026-08-05T20:07:43.998Z",
-      "deployedAt": "2026-08-05T20:08:36.363Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T01:28:28.796Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T01:28:28.796Z"
     },
     {
       "id": "20260805-tiger-spys",
