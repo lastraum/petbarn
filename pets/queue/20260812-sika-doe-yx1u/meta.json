@@ -1,0 +1,18 @@
+{
+  "id": "20260812-sika-doe-yx1u",
+  "action": "update",
+  "targetId": "20260805-sika-doe-nsbh",
+  "auth": {
+    "signature": "0x008e3596f85def1e5e5d4a1ea92e677ca6868eb20233ce455864357abf136b4c293a7aa4e705d12f81a84cccc5f335a666d5c4a5c572510d6447831d9aaf8d321b",
+    "timestampMs": 1786496862009,
+    "glbSha256": "8fd25f98cc6d1d196d143ebfb7146a840f32d4f045ba129e48001ed00f7878c5"
+  },
+  "petName": "Sika Doe",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 1102932,
+  "thumbnailSizeBytes": 90009,
+  "submittedAt": "2026-08-12T01:07:52.224Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
