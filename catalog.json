@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T01:28:28.796Z",
+  "updatedAt": "2026-08-12T01:30:27.979Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -2159,24 +2159,26 @@
       "petName": "Warthog",
       "creatorName": "AwedJob",
       "type": "walking",
-      "animationCount": 5,
+      "animationCount": 6,
       "clipNames": [
         "Idle",
         "Run",
         "Sit",
         "Trot",
-        "Walk"
+        "Walk",
+        "AFK"
       ],
       "parcel": "-58,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeia5csbgdiluj2skxa5xynravabloge4mpggym6obf3wjb46iemt7u",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreiajf7seekromy3rwgc4uxdg7jp4xbyoyorukqceu4rzvbgfketfei",
-      "sizeBytes": 1164492,
-      "thumbnailSizeBytes": 6942,
+      "glbCid": "bafybeibgh7wumzeg6ytbdy7nqsibne3rfbncfy4g2p3czuuxiqmz3xmqyq",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreifavraxki6q33tkf7yzv4aydhej7m4mrg3yuhygvzgo2yoffyih64",
+      "sizeBytes": 1250308,
+      "thumbnailSizeBytes": 113046,
       "submittedAt": "2026-08-05T20:14:13.484Z",
-      "deployedAt": "2026-08-05T20:15:05.636Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T01:30:27.979Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T01:30:27.979Z"
     },
     {
       "id": "20260805-wild-boar-0nci",

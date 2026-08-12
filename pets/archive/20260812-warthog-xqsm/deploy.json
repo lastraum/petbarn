@@ -1,0 +1,32 @@
+{
+  "action": "update",
+  "targetId": "20260805-warthog-rr3v",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-warthog-rr3v",
+    "petName": "Warthog",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 6,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Sit",
+      "Trot",
+      "Walk",
+      "AFK"
+    ],
+    "parcel": "-58,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeibgh7wumzeg6ytbdy7nqsibne3rfbncfy4g2p3czuuxiqmz3xmqyq",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreifavraxki6q33tkf7yzv4aydhej7m4mrg3yuhygvzgo2yoffyih64",
+    "sizeBytes": 1250308,
+    "thumbnailSizeBytes": 113046,
+    "submittedAt": "2026-08-05T20:14:13.484Z",
+    "deployedAt": "2026-08-12T01:30:27.979Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T01:30:27.979Z"
+  },
+  "dryRun": false
+}
