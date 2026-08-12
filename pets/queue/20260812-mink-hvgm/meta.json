@@ -1,0 +1,18 @@
+{
+  "id": "20260812-mink-hvgm",
+  "action": "update",
+  "targetId": "20260805-mink-ywex",
+  "auth": {
+    "signature": "0xaa1a4f0f4a78bf8e9a3ddd1b2788b055cde8be58eb26aab5efe3ea7fa286e2ae5f0da23c88be78969e89d5827c75a79b458d9f4b00c11eb3af161c9202b9eaa11c",
+    "timestampMs": 1786493687732,
+    "glbSha256": "18734b0792ceacedbc01742f69b8ff7fca08c064e18c345eecf39b62df2d8233"
+  },
+  "petName": "Mink",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 1387348,
+  "thumbnailSizeBytes": 52454,
+  "submittedAt": "2026-08-12T00:14:54.760Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
