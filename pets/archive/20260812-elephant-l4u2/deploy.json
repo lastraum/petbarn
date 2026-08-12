@@ -1,0 +1,30 @@
+{
+  "action": "update",
+  "targetId": "20260805-elephant-fe2o",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-elephant-fe2o",
+    "petName": "Elephant",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 4,
+    "clipNames": [
+      "AFK",
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-108,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeifkrlye5m232ftzgyth3ta5arieczelyrzdl5ei752wjuztsoxoe4",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreihtdds5cwgh763yddfy4yacdaxkdleati6qnndxax5dljc744t7fe",
+    "sizeBytes": 531280,
+    "thumbnailSizeBytes": 97806,
+    "submittedAt": "2026-08-05T19:20:29.340Z",
+    "deployedAt": "2026-08-12T01:34:17.200Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T01:34:17.200Z"
+  },
+  "dryRun": false
+}

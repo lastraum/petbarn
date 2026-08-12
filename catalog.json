@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T01:31:20.116Z",
+  "updatedAt": "2026-08-12T01:34:31.951Z",
   "nextParcel": {
     "x": -145,
     "y": -150
@@ -991,13 +991,13 @@
       "glbFile": "models/pet.glb",
       "glbCid": "bafybeifkrlye5m232ftzgyth3ta5arieczelyrzdl5ei752wjuztsoxoe4",
       "thumbnailFile": "models/thumb.png",
-      "thumbnailCid": "bafkreidpd227kvnnrr6y6hj34se42qprh3tsx4hza465rkhy4zk5pfyqi4",
+      "thumbnailCid": "bafkreihtdds5cwgh763yddfy4yacdaxkdleati6qnndxax5dljc744t7fe",
       "sizeBytes": 531280,
-      "thumbnailSizeBytes": 110923,
+      "thumbnailSizeBytes": 97806,
       "submittedAt": "2026-08-05T19:20:29.340Z",
-      "deployedAt": "2026-08-10T23:59:04.871Z",
+      "deployedAt": "2026-08-12T01:34:17.200Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
-      "updatedAt": "2026-08-10T23:59:04.871Z"
+      "updatedAt": "2026-08-12T01:34:17.200Z"
     },
     {
       "id": "20260805-elk-iti0",
@@ -1709,14 +1709,15 @@
       ],
       "parcel": "-77,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeiaarwk4zvpolb6roc4666dz44cj7n4q7ygk2dnkgsdj3yx32ebb7i",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreigx62pgo2osztfjuj3w4x272nys263d4pix6v63c2yssmack43fey",
-      "sizeBytes": 330480,
-      "thumbnailSizeBytes": 7888,
+      "glbCid": "bafybeicnd2b3dfkneagtetthvg3gpjvvfgzyrdtvaz6ptij4lvdhqtcixa",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreifz7vjsozj7cppehzhm6ziavjid2dzmrfv3c7f7zq7vqkzf7pv5oq",
+      "sizeBytes": 320868,
+      "thumbnailSizeBytes": 109089,
       "submittedAt": "2026-08-05T19:54:06.057Z",
-      "deployedAt": "2026-08-05T19:54:46.090Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T01:34:31.951Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T01:34:31.951Z"
     },
     {
       "id": "20260805-polar-bear-qmzu",
