@@ -1,0 +1,18 @@
+{
+  "id": "20260812-bighorn-sheep-02-swqt",
+  "action": "update",
+  "targetId": "20260805-bighorn-sheep-02-rdpj",
+  "auth": {
+    "signature": "0x9d416c312a89f9e691e4ce2253f703a692d4e78001eef2f831b6145d9c211431632695616e1be9ca8ee0594383b8516b8daabbf55db0b14c618501ac7f881f441c",
+    "timestampMs": 1786496805524,
+    "glbSha256": "338ba9d1cfda03887bdfc9879581034ef81959620135bbc57d0a1371d6516a17"
+  },
+  "petName": "Bighorn Sheep 02",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 957152,
+  "thumbnailSizeBytes": 100797,
+  "submittedAt": "2026-08-12T01:06:53.298Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
