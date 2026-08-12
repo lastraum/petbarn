@@ -1,0 +1,18 @@
+{
+  "id": "20260812-dromedary-camel-2did",
+  "action": "update",
+  "targetId": "20260805-dromedary-camel-11ow",
+  "auth": {
+    "signature": "0xa416fe53b66c7986573df3d986761c2feb2ed4908e5cb38efdce1cf3ec916e071bd9f118ca67d5b6f71dbf296f1707b073246163eb973f4b9985308f1a5c322f1c",
+    "timestampMs": 1786494806020,
+    "glbSha256": "c57f8c4dfe6a322d8aa3be9904782ddf68a761b72186f0334e4bd4067dbf14e8"
+  },
+  "petName": "Dromedary Camel",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 583384,
+  "thumbnailSizeBytes": 110832,
+  "submittedAt": "2026-08-12T00:33:32.029Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
