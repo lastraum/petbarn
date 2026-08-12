@@ -1,0 +1,31 @@
+{
+  "action": "update",
+  "targetId": "20260805-duck-so3o",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-duck-so3o",
+    "petName": "Duck",
+    "creatorName": "AwedJob",
+    "type": "flying",
+    "animationCount": 5,
+    "clipNames": [
+      "Fly",
+      "Perch",
+      "AFK",
+      "FlyFast",
+      "Hover"
+    ],
+    "parcel": "-110,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeiaxbgifg5nzanjpb66hxsqxfgdixg3kztzdyvb5sw5qew3x24gm6m",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreihlcshmgw3qr6eeykv5kifot3q6lwwhwrjrb5c6z2ootibdakhb6e",
+    "sizeBytes": 1056080,
+    "thumbnailSizeBytes": 53409,
+    "submittedAt": "2026-08-05T19:18:19.856Z",
+    "deployedAt": "2026-08-12T00:57:32.160Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T00:57:32.160Z"
+  },
+  "dryRun": false
+}

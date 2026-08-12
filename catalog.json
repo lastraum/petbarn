@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T00:55:19.884Z",
+  "updatedAt": "2026-08-12T00:57:32.160Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -952,22 +952,25 @@
       "petName": "Duck",
       "creatorName": "AwedJob",
       "type": "flying",
-      "animationCount": 3,
+      "animationCount": 5,
       "clipNames": [
         "Fly",
+        "Perch",
+        "AFK",
         "FlyFast",
         "Hover"
       ],
       "parcel": "-110,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeidjsfn4hnauzprd6l4u667mhndmyv4dpexkgib6aznfnmyypl5g7q",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreid4tiwerj2jf5b43ufisxxrvz2rnje57ywqbvevpoxgfw5xip7g3u",
-      "sizeBytes": 762120,
-      "thumbnailSizeBytes": 4548,
+      "glbCid": "bafybeiaxbgifg5nzanjpb66hxsqxfgdixg3kztzdyvb5sw5qew3x24gm6m",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreihlcshmgw3qr6eeykv5kifot3q6lwwhwrjrb5c6z2ootibdakhb6e",
+      "sizeBytes": 1056080,
+      "thumbnailSizeBytes": 53409,
       "submittedAt": "2026-08-05T19:18:19.856Z",
-      "deployedAt": "2026-08-05T19:19:03.681Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T00:57:32.160Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T00:57:32.160Z"
     },
     {
       "id": "20260805-eagle-1l6x",
