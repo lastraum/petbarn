@@ -1,0 +1,29 @@
+{
+  "action": "update",
+  "targetId": "20260805-crab-mcda",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-crab-mcda",
+    "petName": "Crab",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "parcel": "-120,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeictjtzvqqkolyadhwcoq67ezavaqjebaj2b7wa5jbxzonnvwtjz64",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreiabboucdtqjb2i3uajfud2kum4ixndtuvwc6sasmwzs5rtomx6gfy",
+    "sizeBytes": 414120,
+    "thumbnailSizeBytes": 80535,
+    "submittedAt": "2026-08-05T19:07:28.509Z",
+    "deployedAt": "2026-08-12T00:38:47.270Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T00:38:47.270Z"
+  },
+  "dryRun": false
+}

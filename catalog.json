@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T00:37:42.815Z",
+  "updatedAt": "2026-08-12T00:38:47.270Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -722,14 +722,15 @@
       ],
       "parcel": "-120,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeicjxuehdskwrlivfgf6w2ed55bwisdfcdep72krbuqigbryjcckym",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreihghhha6vsqg6yjks6mc3z5z6gu55srn3ilg6sqqbdc5jpasiijva",
-      "sizeBytes": 413440,
-      "thumbnailSizeBytes": 6284,
+      "glbCid": "bafybeictjtzvqqkolyadhwcoq67ezavaqjebaj2b7wa5jbxzonnvwtjz64",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreiabboucdtqjb2i3uajfud2kum4ixndtuvwc6sasmwzs5rtomx6gfy",
+      "sizeBytes": 414120,
+      "thumbnailSizeBytes": 80535,
       "submittedAt": "2026-08-05T19:07:28.509Z",
-      "deployedAt": "2026-08-05T19:08:17.533Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T00:38:47.270Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T00:38:47.270Z"
     },
     {
       "id": "20260805-crocodile-r3yl",
