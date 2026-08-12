@@ -1,0 +1,18 @@
+{
+  "id": "20260812-doberman-5j7z",
+  "action": "update",
+  "targetId": "20260805-doberman-gk2d",
+  "auth": {
+    "signature": "0x438800628201309ae2b24eae588cfd6a4c5f998e2d165fdd27b0f1ed9d39515a7e8587ce449f913fb479ccdda7429227e9de4557d28d25d5e82cd42f486e2a1c1b",
+    "timestampMs": 1786495715644,
+    "glbSha256": "ec7824f7c1f98409dc036aa0baf6d24fbd2977d60a7882e5215c87e7b1b66b3e"
+  },
+  "petName": "Doberman",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 294248,
+  "thumbnailSizeBytes": 71271,
+  "submittedAt": "2026-08-12T00:48:42.783Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
