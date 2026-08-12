@@ -1,0 +1,18 @@
+{
+  "id": "20260812-mountain-goat-bk30",
+  "action": "update",
+  "targetId": "20260805-mountain-goat-0l2s",
+  "auth": {
+    "signature": "0xaa815363017c6279aa05aa57c9864be47b5ee717b1f9b08b6823ce28f0814fee1354c751d8d456b796033132fb50492a6914e7030cdd2d4a08868e0047f58a461b",
+    "timestampMs": 1786497707915,
+    "glbSha256": "509e82203a303ffc4ab4c2e52e009b22f6ce53d26d9ac508f75e71045aaf47af"
+  },
+  "petName": "Mountain Goat",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 870424,
+  "thumbnailSizeBytes": 92842,
+  "submittedAt": "2026-08-12T01:21:54.312Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
