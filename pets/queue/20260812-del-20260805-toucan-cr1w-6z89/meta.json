@@ -1,0 +1,13 @@
+{
+  "id": "20260812-del-20260805-toucan-cr1w-6z89",
+  "action": "delete",
+  "targetId": "20260805-toucan-cr1w",
+  "auth": {
+    "signature": "0x5f8b4bb8dade2bdef267b639d62dbc8a07c5a25f0b39ce7eae51e67911fef7462dcb73c192c899fdff0a50f45f49bb365f7ae20d2754b46ffb3c3f6201f33fe61c",
+    "timestampMs": 1786499270743,
+    "glbSha256": "none"
+  },
+  "submittedAt": "2026-08-12T01:47:57.656Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
