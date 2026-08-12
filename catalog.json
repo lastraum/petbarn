@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T00:36:30.251Z",
+  "updatedAt": "2026-08-12T00:37:42.815Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -120,7 +120,7 @@
     },
     {
       "id": "20260805-aligator-fkxs",
-      "petName": "Aligator",
+      "petName": "Alligator",
       "creatorName": "AwedJob",
       "type": "walking",
       "animationCount": 4,
@@ -138,9 +138,9 @@
       "sizeBytes": 1392312,
       "thumbnailSizeBytes": 48056,
       "submittedAt": "2026-08-05T03:36:03.260Z",
-      "deployedAt": "2026-08-11T23:54:58.178Z",
+      "deployedAt": "2026-08-12T00:37:42.815Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
-      "updatedAt": "2026-08-11T23:54:58.178Z"
+      "updatedAt": "2026-08-12T00:37:42.815Z"
     },
     {
       "id": "20260805-bear-4o2p",
