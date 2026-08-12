@@ -1,0 +1,31 @@
+{
+  "action": "update",
+  "targetId": "20260805-dromedary-camel-11ow",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-dromedary-camel-11ow",
+    "petName": "Dromedary Camel",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 5,
+    "clipNames": [
+      "AFK",
+      "Idle",
+      "Run",
+      "Walk",
+      "Trot"
+    ],
+    "parcel": "-128,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeih7nn5p46qp2gsgigqgsgsz2umwgje7iniib3pemv3kxwfzv6yzpq",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreif4553labdwopqyckns6riofa2ep5gdudcjrd6deird5ga4q2xxgq",
+    "sizeBytes": 583384,
+    "thumbnailSizeBytes": 110832,
+    "submittedAt": "2026-08-05T18:57:56.120Z",
+    "deployedAt": "2026-08-12T00:34:25.940Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T00:34:25.940Z"
+  },
+  "dryRun": false
+}
