@@ -1,0 +1,18 @@
+{
+  "id": "20260812-sand-mouse-ije2",
+  "action": "update",
+  "targetId": "20260805-sand-mouse-poq7",
+  "auth": {
+    "signature": "0x268d87ac62d0dd51ad5db6fefd0e3ddc57236906c91b05de05161aa17989e10f1db1b768d995bfcd1362d41b46e559d3f59231e28bef292b98a8886de743a3b21c",
+    "timestampMs": 1786498036166,
+    "glbSha256": "3f067b261922c6d63f9b3bf7c5b4537bb8e885b3996fca279e6212195b529d3a"
+  },
+  "petName": "Sand Mouse",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 338940,
+  "thumbnailSizeBytes": 66478,
+  "submittedAt": "2026-08-12T01:27:24.776Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
