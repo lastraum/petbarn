@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T00:57:32.160Z",
+  "updatedAt": "2026-08-12T00:59:11.245Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -979,22 +979,23 @@
       "type": "flying",
       "animationCount": 5,
       "clipNames": [
-        "Fly",
         "FlyFast",
+        "Fly",
         "Perch",
         "AFK",
         "Hover"
       ],
       "parcel": "-109,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeifofzwmr77q6rl3sromsb63ioq3twft5o3zl7lsl2qyhws2hjw6cu",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreiewzb5zjakxnuvuqd55phvk7mus532i7oqivpilajnos5qb56abeq",
-      "sizeBytes": 531444,
-      "thumbnailSizeBytes": 5936,
+      "glbCid": "bafybeidz2ujbi332lv3dejbzuxsyxmtl74ohat3m4za7jrfpk637aej6sq",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreigfvenw33655wpwarlntixrpwjjscrd2wzcuey3ea5h47dph5nn4a",
+      "sizeBytes": 532108,
+      "thumbnailSizeBytes": 82960,
       "submittedAt": "2026-08-05T19:19:24.634Z",
-      "deployedAt": "2026-08-05T19:20:21.244Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T00:59:11.245Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T00:59:11.245Z"
     },
     {
       "id": "20260805-elephant-fe2o",
