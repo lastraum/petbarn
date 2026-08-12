@@ -1,0 +1,18 @@
+{
+  "id": "20260812-buzzard-jfub",
+  "action": "update",
+  "targetId": "20260805-buzzard-2vl1",
+  "auth": {
+    "signature": "0xb25d89602c57ade326e68c085d140b385e772f98f0c9cfa3653ddaa2023c1e855caf3d59dd09ecca3cd4f584dbe772772d15fe200a2c6aaf1370708d6e5dc5251b",
+    "timestampMs": 1786494733221,
+    "glbSha256": "ca1eabdcfaebe6c20bb5bac1272cbd78f3e833e08867595872885c9575ddae53"
+  },
+  "petName": "Buzzard",
+  "creatorName": "AwedJob",
+  "type": "flying",
+  "sizeBytes": 536164,
+  "thumbnailSizeBytes": 78271,
+  "submittedAt": "2026-08-12T00:32:20.781Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
