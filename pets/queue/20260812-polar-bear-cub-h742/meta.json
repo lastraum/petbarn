@@ -1,0 +1,18 @@
+{
+  "id": "20260812-polar-bear-cub-h742",
+  "action": "update",
+  "targetId": "20260805-polar-bear-cub-u04t",
+  "auth": {
+    "signature": "0x447d9f48bf9385ca43869cd2be92113de42a17748a24b1bcf53f6a4375cd30d34483a039b955b6cea84634291fffcfb9190b275fe83a0c18cf75a3ca651d541a1c",
+    "timestampMs": 1786498389669,
+    "glbSha256": "d8119deb0b8d36dfdf3e88fe90442c8c4a86e5b3b1b4a37258be5703c28f92f6"
+  },
+  "petName": "Polar Bear Cub",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 320868,
+  "thumbnailSizeBytes": 109089,
+  "submittedAt": "2026-08-12T01:33:16.172Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
