@@ -1,0 +1,18 @@
+{
+  "id": "20260812-crow-id85",
+  "action": "update",
+  "targetId": "20260805-crow-6f3g",
+  "auth": {
+    "signature": "0x8c71e13c729fe9d12bbff419dd0618095777d9cb7c7d3c406d844bed1d98c8294a870876f2f93e923503b3812c0e98b95579bf5a955d5dfb9668e2fcd57bf5ce1b",
+    "timestampMs": 1786495163503,
+    "glbSha256": "7ac8233331b13346301edac92c9314cd7a6f3c887617fe349dc470a0ea456814"
+  },
+  "petName": "Crow",
+  "creatorName": "AwedJob",
+  "type": "flying",
+  "sizeBytes": 840468,
+  "thumbnailSizeBytes": 100324,
+  "submittedAt": "2026-08-12T00:39:30.364Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
