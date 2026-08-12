@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T00:49:29.765Z",
+  "updatedAt": "2026-08-12T00:53:01.580Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -889,14 +889,15 @@
       ],
       "parcel": "-113,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeihs5sdern2w4n3srrzh7q4ifg6kx5q7ojb3nohnqgqyssrm5cicrq",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreib4f7wcwvpbjcvgexbfkv2affvil5rn6bkz4wgsafilyvleaft5vq",
-      "sizeBytes": 1448136,
-      "thumbnailSizeBytes": 11114,
+      "glbCid": "bafybeidn7rqqccgcayp6utlgltek7wruvzwcv6ktt6cw63jgasje4hkfq4",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreih3zhdd3hwncp3wcqcwvhuuzmd7voxfm7hwxrfz4un5o75gymkdga",
+      "sizeBytes": 1448160,
+      "thumbnailSizeBytes": 115537,
       "submittedAt": "2026-08-05T19:15:03.336Z",
-      "deployedAt": "2026-08-05T19:15:58.823Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T00:53:01.580Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T00:53:01.580Z"
     },
     {
       "id": "20260805-saddle-donkey-6ri7",
