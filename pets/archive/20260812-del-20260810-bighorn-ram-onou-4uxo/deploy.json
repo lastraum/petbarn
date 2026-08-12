@@ -1,0 +1,28 @@
+{
+  "action": "delete",
+  "targetId": "20260810-bighorn-ram-onou",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "removedEntry": {
+    "id": "20260810-bighorn-ram-onou",
+    "petName": "Bighorn Ram",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-52,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeibgumuvhnvh22jkfo2wi7kfpai5iv5r2kswnotle2vwlrp5imxa5i",
+    "thumbnailFile": "models/thumb.webp",
+    "thumbnailCid": "bafkreifblo5u4lylheancdpgfzwhpxlcabsl47l6vgx26clnai737hf7ky",
+    "sizeBytes": 371728,
+    "thumbnailSizeBytes": 8488,
+    "submittedAt": "2026-08-10T23:33:08.915Z",
+    "deployedAt": "2026-08-10T23:34:07.777Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+  },
+  "dryRun": false
+}
