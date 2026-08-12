@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T00:47:50.333Z",
+  "updatedAt": "2026-08-12T00:49:29.765Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -839,14 +839,15 @@
       ],
       "parcel": "-115,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeifykhcc3ckedjj23dqfjrqexqwyyhse4sx6lpe53fa7utmhw7qwia",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreib4wnfwxovcmqv2ly75qquhqsuk33prq4nc3zmdwt5jkkrkagz2sy",
-      "sizeBytes": 294224,
-      "thumbnailSizeBytes": 4360,
+      "glbCid": "bafybeieod6cahsw3tnz5ltoz3fhini3p3hcgda5begzis4wgolwtojg2ca",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreigtdlns2sszpdi34mzh34adqrrfz4u6n4vlarj24ccebincdpmeqe",
+      "sizeBytes": 294248,
+      "thumbnailSizeBytes": 71271,
       "submittedAt": "2026-08-05T19:12:53.063Z",
-      "deployedAt": "2026-08-05T19:13:48.300Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T00:49:29.765Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T00:49:29.765Z"
     },
     {
       "id": "20260805-sika-doe-nsbh",

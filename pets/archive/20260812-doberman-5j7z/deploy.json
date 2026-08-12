@@ -1,0 +1,29 @@
+{
+  "action": "update",
+  "targetId": "20260805-doberman-gk2d",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-doberman-gk2d",
+    "petName": "Doberman",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-115,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeieod6cahsw3tnz5ltoz3fhini3p3hcgda5begzis4wgolwtojg2ca",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreigtdlns2sszpdi34mzh34adqrrfz4u6n4vlarj24ccebincdpmeqe",
+    "sizeBytes": 294248,
+    "thumbnailSizeBytes": 71271,
+    "submittedAt": "2026-08-05T19:12:53.063Z",
+    "deployedAt": "2026-08-12T00:49:29.765Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T00:49:29.765Z"
+  },
+  "dryRun": false
+}
