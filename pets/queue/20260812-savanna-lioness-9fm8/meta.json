@@ -1,0 +1,18 @@
+{
+  "id": "20260812-savanna-lioness-9fm8",
+  "action": "update",
+  "targetId": "20260805-savanna-lioness-g1jp",
+  "auth": {
+    "signature": "0x6fa8c6849cfae86ad7162562b505f0bada4008ce07b4e80c0177ae894e2d5c6357dc970de8b9fb866b88b02f4999ff334230ed3dfee4dcc71139170e4d18743b1c",
+    "timestampMs": 1786497601844,
+    "glbSha256": "aa59846ad928d4a80ca9d6e70484cb1619a76fe2bb0a11faeb7f69c4fda5aae2"
+  },
+  "petName": "Savanna Lioness",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 1469864,
+  "thumbnailSizeBytes": 115930,
+  "submittedAt": "2026-08-12T01:20:08.733Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
