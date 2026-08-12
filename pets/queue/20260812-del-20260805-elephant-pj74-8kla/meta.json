@@ -1,0 +1,13 @@
+{
+  "id": "20260812-del-20260805-elephant-pj74-8kla",
+  "action": "delete",
+  "targetId": "20260805-elephant-pj74",
+  "auth": {
+    "signature": "0xf64e6e8fe3bf21299a45e05246ce25d9cb3337f62bc2a3c9335fc90059910caa0d5a3b005d70661339dfd83d6560c6a5d22ac371476ea30c538fd746e0d6dcfa1b",
+    "timestampMs": 1786498234847,
+    "glbSha256": "none"
+  },
+  "submittedAt": "2026-08-12T01:30:41.231Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
