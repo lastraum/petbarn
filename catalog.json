@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T00:34:25.940Z",
+  "updatedAt": "2026-08-12T00:36:30.251Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -572,7 +572,7 @@
     },
     {
       "id": "20260805-patches-cat-0x63",
-      "petName": "Patches Cat",
+      "petName": "Cat Patches",
       "creatorName": "AwedJob",
       "type": "walking",
       "animationCount": 3,
@@ -583,14 +583,15 @@
       ],
       "parcel": "-126,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeia6uruatq7ffbxgcsumqfdda4cmzzrlvraow2j35767x5v7a46qia",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreickfj2h3km5mkqzj2gkz5zc3df32mc5axgzlkpole3jnhzdypg6qi",
+      "glbCid": "bafybeidvmyaf4qyyn5au55fhk526d65yb5c3yx4llkymcjwtvizn6btmvu",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreid2v5lks4eiliv3ip52veaowkc3gj3ny6aatq2c735xf6qgvil7my",
       "sizeBytes": 432536,
-      "thumbnailSizeBytes": 6890,
+      "thumbnailSizeBytes": 93069,
       "submittedAt": "2026-08-05T19:00:26.433Z",
-      "deployedAt": "2026-08-05T19:01:16.603Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T00:36:30.251Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T00:36:30.251Z"
     },
     {
       "id": "20260805-chamois-ndal",
