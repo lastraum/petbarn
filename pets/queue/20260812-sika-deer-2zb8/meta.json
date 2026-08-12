@@ -1,0 +1,18 @@
+{
+  "id": "20260812-sika-deer-2zb8",
+  "action": "update",
+  "targetId": "20260805-sika-deer-4qeq",
+  "auth": {
+    "signature": "0xd436afed8f3579a50ce6ee8d9ebbe2442f3fd6377c89443ba67530d32e9092ec1667231fc44adac41605eab1086f06e0ee74dffcc728a29f44c0cf4ab9a13b4a1c",
+    "timestampMs": 1786495439680,
+    "glbSha256": "96ca22a4c7d3a61871980db575db06c9c1093a638fc42a13fc242419da9d75bf"
+  },
+  "petName": "Sika Deer",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 1281704,
+  "thumbnailSizeBytes": 75791,
+  "submittedAt": "2026-08-12T00:46:44.671Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
