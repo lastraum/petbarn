@@ -1,0 +1,18 @@
+{
+  "id": "20260812-warthog-xqsm",
+  "action": "update",
+  "targetId": "20260805-warthog-rr3v",
+  "auth": {
+    "signature": "0x829e4981c1df887e3bcd9cbc450d87b96ab1251a8b9b6de5f992fa60c9dcc72a0792695fadcd14d2ba3bc0bf7997b5fd441a65a5250d24330602b0740e8afd2c1b",
+    "timestampMs": 1786498169882,
+    "glbSha256": "2c7abd314b90df9cdffd2ebd7d15f6406f7d221eb726b1d4280e3c2c0ec54321"
+  },
+  "petName": "Warthog",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 1250308,
+  "thumbnailSizeBytes": 113046,
+  "submittedAt": "2026-08-12T01:29:39.692Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
