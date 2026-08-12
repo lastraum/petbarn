@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T00:59:11.245Z",
+  "updatedAt": "2026-08-12T01:01:27.600Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -1036,14 +1036,15 @@
       ],
       "parcel": "-107,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeiab5bj3mdj7doxi3t5qal35vk2k45h6sljiqhavnhpytz43g426ey",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreiaohnzotjtn2cmlwktlw5e4znsa5d2lnnmfqwvlxd2drw4lfn5m24",
-      "sizeBytes": 545756,
-      "thumbnailSizeBytes": 7524,
+      "glbCid": "bafybeie2mfrhxrw3csu54ad6rfcc7sy6xa6lass4o5bz4bq7ms4lz6a7sm",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreid2tgpelwzhr5n56d4e4c23m2xqtijuc2td4co3qxza4gr2oflcmm",
+      "sizeBytes": 545792,
+      "thumbnailSizeBytes": 87093,
       "submittedAt": "2026-08-05T19:21:34.900Z",
-      "deployedAt": "2026-08-05T19:22:18.735Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T01:01:27.600Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T01:01:27.600Z"
     },
     {
       "id": "20260805-flamingo-zmhs",
