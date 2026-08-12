@@ -1,0 +1,18 @@
+{
+  "id": "20260812-buffalo-f5f2",
+  "action": "update",
+  "targetId": "20260805-buffalo-fztn",
+  "auth": {
+    "signature": "0x2add558ea4d74ab8655c8e79c52c828dbcbaccc38a4de0ce6048e475eee834f831c4c236cde1bb3e232dca599d65b55c6bf7c23f437c8337309175e7042edbdb1b",
+    "timestampMs": 1786494523420,
+    "glbSha256": "6fd7a3f395637b68c1316e581a0ce3e92cab7c4c5f6da2c541f75a8bd7580387"
+  },
+  "petName": "Buffalo",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 527956,
+  "thumbnailSizeBytes": 110481,
+  "submittedAt": "2026-08-12T00:28:49.940Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
