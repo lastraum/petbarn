@@ -2,9 +2,9 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T01:30:27.979Z",
+  "updatedAt": "2026-08-12T01:31:20.116Z",
   "nextParcel": {
-    "x": -52,
+    "x": -145,
     "y": -150
   },
   "pets": [
@@ -236,29 +236,6 @@
       "thumbnailSizeBytes": 113368,
       "submittedAt": "2026-08-05T03:39:55.310Z",
       "deployedAt": "2026-08-05T03:44:46.797Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
-    },
-    {
-      "id": "20260805-elephant-pj74",
-      "petName": "Elephant",
-      "creatorName": "AwedJob",
-      "type": "walking",
-      "animationCount": 4,
-      "clipNames": [
-        "Idle",
-        "AFK",
-        "Run",
-        "Walk"
-      ],
-      "parcel": "-145,-150",
-      "glbFile": "models/pet.glb",
-      "glbCid": "bafybeif76t5vb7bzarc6y37kjmwcu7qbv3nenxiqisxgbhsfo4bdiu7zhm",
-      "thumbnailFile": "models/thumb.png",
-      "thumbnailCid": "bafkreigh5hgn5y7hy5teyhvrwezbfcr7tys7bgeizh7n6fvr3wkt3wpqwy",
-      "sizeBytes": 1995580,
-      "thumbnailSizeBytes": 153618,
-      "submittedAt": "2026-08-05T03:35:32.498Z",
-      "deployedAt": "2026-08-05T03:45:13.434Z",
       "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
     },
     {
