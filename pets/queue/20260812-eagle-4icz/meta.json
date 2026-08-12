@@ -1,0 +1,18 @@
+{
+  "id": "20260812-eagle-4icz",
+  "action": "update",
+  "targetId": "20260805-eagle-1l6x",
+  "auth": {
+    "signature": "0x0eb684cbfef391e4c956b26c534c5cc41cd99959c565e9c719f7bfbaab32ee47015aa3e53b6ed4ff224c8eddc1ba6f6438bd36c4fd2bc2381d0034686dde9c971b",
+    "timestampMs": 1786496284997,
+    "glbSha256": "3c4fc7225c2688eeaf323ce8c31a17f72d0c2673ecf0ff7ddf0c2c8176f2bb4e"
+  },
+  "petName": "Eagle",
+  "creatorName": "AwedJob",
+  "type": "flying",
+  "sizeBytes": 532108,
+  "thumbnailSizeBytes": 82960,
+  "submittedAt": "2026-08-12T00:58:10.789Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
