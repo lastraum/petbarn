@@ -1,0 +1,29 @@
+{
+  "action": "update",
+  "targetId": "20260805-buffalo-fztn",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-buffalo-fztn",
+    "petName": "Buffalo",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-132,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeib47dquvln2ac22tzntfps2uqr4c5hcbq7ruukpaoks4xvzpgk2ry",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreib3tmazz2k7r3onqgtd43qkfvojsbouqqbcevyzv2cy6snyzuhg5i",
+    "sizeBytes": 527956,
+    "thumbnailSizeBytes": 110481,
+    "submittedAt": "2026-08-05T18:53:35.070Z",
+    "deployedAt": "2026-08-12T00:33:06.710Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T00:33:06.710Z"
+  },
+  "dryRun": false
+}

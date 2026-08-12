@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T00:28:51.649Z",
+  "updatedAt": "2026-08-12T00:33:21.128Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -432,23 +432,23 @@
       "petName": "Buffalo",
       "creatorName": "AwedJob",
       "type": "walking",
-      "animationCount": 4,
+      "animationCount": 3,
       "clipNames": [
         "Idle",
         "Run",
-        "AFK",
         "Walk"
       ],
       "parcel": "-132,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeie5twms5ut5uwklekwppjxqm5ext22ggc7eeshgyovruha7qhthcm",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreih4m4x5ltvaoawp2fvlpfjj5hhtle7fvbpoq7jggnzcvfybfn5pfy",
-      "sizeBytes": 628336,
-      "thumbnailSizeBytes": 7484,
+      "glbCid": "bafybeib47dquvln2ac22tzntfps2uqr4c5hcbq7ruukpaoks4xvzpgk2ry",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreib3tmazz2k7r3onqgtd43qkfvojsbouqqbcevyzv2cy6snyzuhg5i",
+      "sizeBytes": 527956,
+      "thumbnailSizeBytes": 110481,
       "submittedAt": "2026-08-05T18:53:35.070Z",
-      "deployedAt": "2026-08-05T18:54:26.680Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T00:33:06.710Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T00:33:06.710Z"
     },
     {
       "id": "20260805-buffalo-02-3d5p",
@@ -488,14 +488,15 @@
       ],
       "parcel": "-130,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeidfg73bcf6vz23bepdkt76piheb6qipg5wezsnemmbcvhgq6d4aha",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreifmbfhqdxyv2lkniaci6prqymy2aterrvpryvmbbrq2js3y4lwesa",
-      "sizeBytes": 535832,
-      "thumbnailSizeBytes": 5632,
+      "glbCid": "bafybeib2q3vv5jtokbkhux4cngdcashuwwt5gh6bmy6ktfj345dhsiadaa",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreifbkf7vsregup2hskq3oc26rkbjgnuswb7pj4aytohxw4eicg5fwu",
+      "sizeBytes": 536164,
+      "thumbnailSizeBytes": 78271,
       "submittedAt": "2026-08-05T18:55:46.214Z",
-      "deployedAt": "2026-08-05T18:56:39.000Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T00:33:21.128Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T00:33:21.128Z"
     },
     {
       "id": "20260805-calf-nhy4",

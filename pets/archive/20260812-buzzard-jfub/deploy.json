@@ -1,0 +1,30 @@
+{
+  "action": "update",
+  "targetId": "20260805-buzzard-2vl1",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-buzzard-2vl1",
+    "petName": "Buzzard",
+    "creatorName": "AwedJob",
+    "type": "flying",
+    "animationCount": 4,
+    "clipNames": [
+      "Perch",
+      "Fly",
+      "FlyFast",
+      "Hover"
+    ],
+    "parcel": "-130,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeib2q3vv5jtokbkhux4cngdcashuwwt5gh6bmy6ktfj345dhsiadaa",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreifbkf7vsregup2hskq3oc26rkbjgnuswb7pj4aytohxw4eicg5fwu",
+    "sizeBytes": 536164,
+    "thumbnailSizeBytes": 78271,
+    "submittedAt": "2026-08-05T18:55:46.214Z",
+    "deployedAt": "2026-08-12T00:33:21.128Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T00:33:21.128Z"
+  },
+  "dryRun": false
+}
