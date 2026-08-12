@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T00:38:47.270Z",
+  "updatedAt": "2026-08-12T00:40:30.491Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -767,14 +767,15 @@
       ],
       "parcel": "-118,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeifwbtkqn3ega2jjk4oyddau4j3xmqq3okzlweluqgtmgttx22icjq",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreihbgzkwqh7ygdonuiz4grgcbofoecdtxz2fsdzvgnslflnz2euxtm",
-      "sizeBytes": 840072,
-      "thumbnailSizeBytes": 6992,
+      "glbCid": "bafybeihouwahs3rxcts6zrhgqomtx75uapdeyzdhu4xddtruwlzze3pxdy",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreicouv2jlxx7l7z33cw7ek36zlurckkwyy4v55lqqnf42zhb36a37i",
+      "sizeBytes": 840468,
+      "thumbnailSizeBytes": 100324,
       "submittedAt": "2026-08-05T19:09:37.711Z",
-      "deployedAt": "2026-08-05T19:10:27.392Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T00:40:30.491Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T00:40:30.491Z"
     },
     {
       "id": "20260805-sika-deer-4qeq",

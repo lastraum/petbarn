@@ -1,0 +1,28 @@
+{
+  "action": "update",
+  "targetId": "20260805-crow-6f3g",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-crow-6f3g",
+    "petName": "Crow",
+    "creatorName": "AwedJob",
+    "type": "flying",
+    "animationCount": 2,
+    "clipNames": [
+      "Hover",
+      "Fly"
+    ],
+    "parcel": "-118,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeihouwahs3rxcts6zrhgqomtx75uapdeyzdhu4xddtruwlzze3pxdy",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreicouv2jlxx7l7z33cw7ek36zlurckkwyy4v55lqqnf42zhb36a37i",
+    "sizeBytes": 840468,
+    "thumbnailSizeBytes": 100324,
+    "submittedAt": "2026-08-05T19:09:37.711Z",
+    "deployedAt": "2026-08-12T00:40:30.491Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T00:40:30.491Z"
+  },
+  "dryRun": false
+}
