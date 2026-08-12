@@ -56,6 +56,9 @@ jobs:
           DCL_PRIVATE_KEY: ${{ secrets.DCL_PRIVATE_KEY }}
           PETBARN_WORLD_NAME: petbarn.dcl.eth
           PETBARN_TARGET_CONTENT: https://worlds-content-server.decentraland.org
+          # Optional: comma-separated 0x… that may signed-update/delete any listing
+          PETBARN_ADMIN_WALLETS: ${{ vars.PETBARN_ADMIN_WALLETS || secrets.PETBARN_ADMIN_WALLETS }}
+          PETBARN_AUTH_WINDOW_MS: ${{ vars.PETBARN_AUTH_WINDOW_MS }}
         run: npm run process-queue
 
       - name: Commit catalog + archive

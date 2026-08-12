@@ -192,7 +192,12 @@ async function updateQueueItem(id, meta, dryRun) {
 /**
  * Retire a listing: deploy an empty tombstone scene over its parcel, remove
  * the catalog entry, and point nextParcel at the freed cell so the hole is
- * refilled first. Requires meta.auth signed by the listing wallet or admin.
+ * refilled first.
+ *
+ * Auth:
+ *   - meta.auth signed by the listing wallet or PETBARN_ADMIN_WALLETS, or
+ *   - meta.force === true (operator force-delete via git-committed queue item;
+ *     write access to main is the trust boundary — the Worker never sets force).
  */
 async function deleteQueueItem(id, meta, dryRun) {
   const qDir = queueItemDir(id)
@@ -213,7 +218,18 @@ async function deleteQueueItem(id, meta, dryRun) {
     })
     return { skipped: true, action: 'delete', noop: true, targetId: meta.targetId }
   }
-  const signer = verifyActionAuth('delete', meta, target)
+
+  const force = meta.force === true
+  let signer
+  if (force) {
+    // Operator-only: never accept force from the public Worker (it never sets force).
+    signer = String(meta.wallet || meta.forcedBy || 'operator-force').trim() || 'operator-force'
+    console.warn(
+      `[petbarn] FORCE delete ${target.id} (${target.petName}) — skipping signature (by ${signer})`
+    )
+  } else {
+    signer = verifyActionAuth('delete', meta, target)
+  }
 
   const parcel = parseParcel(target.parcel)
   const workDir = path.join(WORK_ROOT, id)
@@ -234,11 +250,14 @@ async function deleteQueueItem(id, meta, dryRun) {
     action: 'delete',
     targetId: target.id,
     authorizedBy: signer,
+    force,
     removedEntry: target,
     dryRun
   })
-  console.log(`[petbarn] Deleted ${target.id}, freed parcel ${target.parcel} (by ${signer})`)
-  return { skipped: false, action: 'delete', removed: target.id }
+  console.log(
+    `[petbarn] Deleted ${target.id}, freed parcel ${target.parcel} (by ${signer}${force ? ', force' : ''})`
+  )
+  return { skipped: false, action: 'delete', removed: target.id, force }
 }
 
 export async function deployQueueItem(id, options = {}) {

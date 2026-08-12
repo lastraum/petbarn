@@ -1,0 +1,10 @@
+{
+  "id": "20260812-del-20260730-bison-okvn-7e3b",
+  "action": "delete",
+  "targetId": "20260730-bison-okvn",
+  "force": true,
+  "forcedBy": "operator-force",
+  "submittedAt": "2026-08-12T02:10:24.000Z",
+  "wallet": "operator-force",
+  "note": "Force-delete Bison (Kirzoz early upload)"
+}

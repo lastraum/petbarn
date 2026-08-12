@@ -69,6 +69,11 @@ Keep Action ≥ Worker. If CI is always fast, you may tighten Action toward 10 m
 - **delete** — deploys an empty tombstone scene over the parcel, removes the
   catalog entry, and points `nextParcel` at the freed cell so holes refill
   first (`computeNextParcel`'s full scan picks up any others).
+- **force delete** — operator-only: git-commit a queue item with
+  `"action":"delete"`, `"targetId":"<listing-id>"`, `"force":true` (no
+  `meta.auth`). The public dispatch Worker never sets `force`; write access
+  to `main` is the trust boundary. Use when the listing owner wallet is
+  unavailable and you need to retire a pet.
 
 ### GitHub Actions env (optional)
 
