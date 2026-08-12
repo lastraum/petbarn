@@ -1,0 +1,18 @@
+{
+  "id": "20260812-donkey-2x0k",
+  "action": "update",
+  "targetId": "20260805-donkey-xomw",
+  "auth": {
+    "signature": "0xeed992b93486595315e36e15f115b054cff1e4e9d429a2abbe3ac173033241dd591f5645bd67e244d2230a2da7876602682add962ac82cb38b992c658a9267d81c",
+    "timestampMs": 1786496064144,
+    "glbSha256": "bdb45b44215d42f24d2a3b6e39167d778fb55e6c7ac3d3a4f4ff83d07fdb6de4"
+  },
+  "petName": "Donkey",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 593180,
+  "thumbnailSizeBytes": 109491,
+  "submittedAt": "2026-08-12T00:54:30.765Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
