@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T01:14:26.695Z",
+  "updatedAt": "2026-08-12T01:18:37.577Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -1260,23 +1260,23 @@
       "petName": "Honey Badger",
       "creatorName": "AwedJob",
       "type": "walking",
-      "animationCount": 4,
+      "animationCount": 3,
       "clipNames": [
         "Idle",
         "Run",
-        "Trot",
         "Walk"
       ],
       "parcel": "-97,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeiehehxt4mhpkfhuswd2f6tdx7izhw37evcyp2b7gxebtex3lf3azy",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreia64oconufsgomjhmyn2c5gt6wqkw43qvbrokk62kteg6eutxez3e",
-      "sizeBytes": 735108,
-      "thumbnailSizeBytes": 7494,
+      "glbCid": "bafybeiadkqox3ic4x5s666xv436qkzcuovz5j6uql6zf53x7g6abwizfde",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreid6474ahtqym36amnzviw3vynvg6g77gel47vdchl5xtwa6s7uy5a",
+      "sizeBytes": 707720,
+      "thumbnailSizeBytes": 119677,
       "submittedAt": "2026-08-05T19:32:24.007Z",
-      "deployedAt": "2026-08-05T19:33:20.740Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T01:18:23.998Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T01:18:23.998Z"
     },
     {
       "id": "20260805-horse-01-0bc1",
@@ -1476,14 +1476,15 @@
       ],
       "parcel": "-88,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeiaoowpb34xowkejipcgnvell7smdwfedtc4lr7fujncru3awmyqyy",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreif3vvtrc5rsjbfnyyk7c56xlxen6pos4rn6yyastqwjwxsyweozri",
-      "sizeBytes": 2085280,
-      "thumbnailSizeBytes": 8494,
+      "glbCid": "bafybeiargfolplcf4ez62ekufzawrfa4fcjvluusviuxoaph5deevzvosi",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreifveulgdsxgedrz3enixngwr6ytgczahadcaucx3auajhcmj46npi",
+      "sizeBytes": 2085672,
+      "thumbnailSizeBytes": 130249,
       "submittedAt": "2026-08-05T19:42:09.718Z",
-      "deployedAt": "2026-08-05T19:43:08.809Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T01:18:37.577Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T01:18:37.577Z"
     },
     {
       "id": "20260805-savanna-lioness-g1jp",
