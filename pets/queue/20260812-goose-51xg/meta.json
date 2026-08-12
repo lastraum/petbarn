@@ -1,0 +1,18 @@
+{
+  "id": "20260812-goose-51xg",
+  "action": "update",
+  "targetId": "20260805-goose-w5bi",
+  "auth": {
+    "signature": "0x3697e2ec195a5c61366d6da500aebd79c45ed90f2e66dbbe5e6919e0890397db2dbbc141579be4fec04e211522dc63461c06264565fe472be7ee52455d4335be1c",
+    "timestampMs": 1786497100471,
+    "glbSha256": "43a26b435e4772ce362d94f369f226a0657fdeb3a96d3ff1fd963259e81bfe20"
+  },
+  "petName": "Goose",
+  "creatorName": "AwedJob",
+  "type": "flying",
+  "sizeBytes": 899532,
+  "thumbnailSizeBytes": 49882,
+  "submittedAt": "2026-08-12T01:11:48.451Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
