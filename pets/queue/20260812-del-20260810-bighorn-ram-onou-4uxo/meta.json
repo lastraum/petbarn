@@ -1,0 +1,13 @@
+{
+  "id": "20260812-del-20260810-bighorn-ram-onou-4uxo",
+  "action": "delete",
+  "targetId": "20260810-bighorn-ram-onou",
+  "auth": {
+    "signature": "0x77913c00e1960864fcc522f3848f79364de516a66ca08198c21318ccade250b951e48c8a7241e90db4ed1f02c5153a53b3e50929f62960c413ed226c90eee7ea1c",
+    "timestampMs": 1786494468658,
+    "glbSha256": "none"
+  },
+  "submittedAt": "2026-08-12T00:27:55.932Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
