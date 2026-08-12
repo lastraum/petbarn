@@ -1,0 +1,18 @@
+{
+  "id": "20260812-elephant-l4u2",
+  "action": "update",
+  "targetId": "20260805-elephant-fe2o",
+  "auth": {
+    "signature": "0x07f8642e62629d50a4165b88278a0597324101e994dbae9c3114d14f761ec4eb79c4bed17e8361efe31691eaaf0d608812ddcd2b599f8f71732b0e3cb6e73eb01b",
+    "timestampMs": 1786498268248,
+    "glbSha256": "6842e176762338fcde91f457ea840770889d76044b2e7a3735539440fffc898f"
+  },
+  "petName": "Elephant",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 531280,
+  "thumbnailSizeBytes": 97806,
+  "submittedAt": "2026-08-12T01:31:15.003Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
