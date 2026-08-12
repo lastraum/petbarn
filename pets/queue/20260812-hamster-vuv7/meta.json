@@ -1,0 +1,18 @@
+{
+  "id": "20260812-hamster-vuv7",
+  "action": "update",
+  "targetId": "20260805-hamster-cak1",
+  "auth": {
+    "signature": "0x67ff3a2d5a4ce16965c71af316600301caaaa782a4fe1165cfdf720bbaa094385643f43403643f947f500a53abc1151def09aa098f0aebc874c2b80b6920842a1b",
+    "timestampMs": 1786497204912,
+    "glbSha256": "4b798474236ba07ae240e88e9b0f0199f69fa12e5f5156565155ff667c2cd9e4"
+  },
+  "petName": "Hamster",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 299812,
+  "thumbnailSizeBytes": 147202,
+  "submittedAt": "2026-08-12T01:13:31.625Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
