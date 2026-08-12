@@ -1,0 +1,18 @@
+{
+  "id": "20260812-lynx-01-ah76",
+  "action": "update",
+  "targetId": "20260805-lynx-01-rjp5",
+  "auth": {
+    "signature": "0xda562c885546446bbb86a56e9980b2fee7cb6818d2ccf6e6828cf7e72a46d4b2177329cd60875dfa65552ae530d819ba8212bf10636d4242df5491bb1f450a3d1c",
+    "timestampMs": 1786497657413,
+    "glbSha256": "6498153c1751d123be5c643186ea7e1a6e03dee51f575c7621013f9bf471eb84"
+  },
+  "petName": "Lynx 01",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 429976,
+  "thumbnailSizeBytes": 133884,
+  "submittedAt": "2026-08-12T01:21:06.602Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
