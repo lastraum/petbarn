@@ -1,0 +1,18 @@
+{
+  "id": "20260812-lion-02-nzdl",
+  "action": "update",
+  "targetId": "20260805-lion-02-e6nm",
+  "auth": {
+    "signature": "0x3517c69840d683b70cb290c5d88a1fde1d3c2bc01d6e4860d6489a54e992532e2988634223d1d70048b0fd69babdc10c01ec94c006ef052307e86627e14f4efa1c",
+    "timestampMs": 1786497440545,
+    "glbSha256": "331375f8a7f973b5deef312f31b7163da6a09d7a9cdbcc49c72a9f2279fb3e0e"
+  },
+  "petName": "Lion 02",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 2085672,
+  "thumbnailSizeBytes": 130249,
+  "submittedAt": "2026-08-12T01:17:36.812Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
