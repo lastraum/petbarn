@@ -1,0 +1,18 @@
+{
+  "id": "20260812-cat-patches-epfu",
+  "action": "update",
+  "targetId": "20260805-patches-cat-0x63",
+  "auth": {
+    "signature": "0xe1c47bc3735b5c68de90084fb03b730da6d9bc6893d52e18b9dbc0a3c0d70d480ae43c5eb61cdf5dfecb7f18111e6276b99efaf53dfdb132fa6d8c2f5dbca4031b",
+    "timestampMs": 1786494930026,
+    "glbSha256": "8b19e21a257d9b1636d23b12b2288066181eba6e55e979b5301e93c467942b1c"
+  },
+  "petName": "Cat Patches",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 432536,
+  "thumbnailSizeBytes": 93069,
+  "submittedAt": "2026-08-12T00:35:39.225Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
