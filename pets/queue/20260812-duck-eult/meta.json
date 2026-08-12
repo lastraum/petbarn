@@ -1,0 +1,18 @@
+{
+  "id": "20260812-duck-eult",
+  "action": "update",
+  "targetId": "20260805-duck-so3o",
+  "auth": {
+    "signature": "0x25f1ca9de47927bb2477550395e402cf90a49c7b9e2ffb05b2b19f0c75dab0e164a159c6ad022aeb8c11e1d64da87475fde2d44ed5c979d56c1dd3c1dc493cb51b",
+    "timestampMs": 1786496186134,
+    "glbSha256": "95d2a3145534f1c05a3d3fd7bca0b70362f41972aa4ac972f56badeb622b6d1e"
+  },
+  "petName": "Duck",
+  "creatorName": "AwedJob",
+  "type": "flying",
+  "sizeBytes": 1056080,
+  "thumbnailSizeBytes": 53409,
+  "submittedAt": "2026-08-12T00:56:32.976Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
