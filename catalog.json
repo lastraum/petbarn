@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T01:20:19.344Z",
+  "updatedAt": "2026-08-12T01:22:29.878Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -1500,14 +1500,15 @@
       ],
       "parcel": "-87,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeiabunekuetsq2qz3lworgmme7spviivxtvidnqzubtozhxvns6oku",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreiawmtofqeg7kp6qsykj7izukqg7nqzgldpb5qjr6om7thbtjklsr4",
-      "sizeBytes": 1466412,
-      "thumbnailSizeBytes": 7824,
+      "glbCid": "bafybeibcaywkukjfopy76onx6s7hnxmiqekzhdnlo57q6nvg3vxdhcepki",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreig6nrobanjcpqcdoiwnwyrdz3e3l4ykswhnkdo3g3ubaviuaqmvmi",
+      "sizeBytes": 1469864,
+      "thumbnailSizeBytes": 115930,
       "submittedAt": "2026-08-05T19:43:14.994Z",
-      "deployedAt": "2026-08-05T19:44:07.552Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T01:22:29.878Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T01:22:29.878Z"
     },
     {
       "id": "20260805-lioness-eg3r",
@@ -1547,14 +1548,15 @@
       ],
       "parcel": "-85,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeie65mvmnfhju7mlq7cc6rtloyeq4mfrqc6t4nwoczfultvgvlofxa",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreiblxw2ir7uv4kudqjpbluw5rxsxpkjc654fc2fsfcst6dsx7lzr2q",
+      "glbCid": "bafybeiaabgmdphtpcywx54cyqce4doaauny2zcjz2r3nfqjn7f2jal5nhq",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreiefmxhlfw3a665fmqzx4orjjsflgbbc7rtbxhl55cxnsgnhc7l7ee",
       "sizeBytes": 429976,
-      "thumbnailSizeBytes": 9852,
+      "thumbnailSizeBytes": 133884,
       "submittedAt": "2026-08-05T19:45:25.310Z",
-      "deployedAt": "2026-08-05T19:46:27.661Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T01:22:15.580Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T01:22:15.580Z"
     },
     {
       "id": "20260805-lynx-02-ak4v",

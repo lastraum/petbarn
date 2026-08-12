@@ -1,0 +1,29 @@
+{
+  "action": "update",
+  "targetId": "20260805-lynx-01-rjp5",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-lynx-01-rjp5",
+    "petName": "Lynx 01",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-85,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeiaabgmdphtpcywx54cyqce4doaauny2zcjz2r3nfqjn7f2jal5nhq",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreiefmxhlfw3a665fmqzx4orjjsflgbbc7rtbxhl55cxnsgnhc7l7ee",
+    "sizeBytes": 429976,
+    "thumbnailSizeBytes": 133884,
+    "submittedAt": "2026-08-05T19:45:25.310Z",
+    "deployedAt": "2026-08-12T01:22:15.580Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T01:22:15.580Z"
+  },
+  "dryRun": false
+}
