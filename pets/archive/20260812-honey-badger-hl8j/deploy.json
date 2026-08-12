@@ -1,0 +1,29 @@
+{
+  "action": "update",
+  "targetId": "20260805-honey-badger-tsmf",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-honey-badger-tsmf",
+    "petName": "Honey Badger",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-97,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeiadkqox3ic4x5s666xv436qkzcuovz5j6uql6zf53x7g6abwizfde",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreid6474ahtqym36amnzviw3vynvg6g77gel47vdchl5xtwa6s7uy5a",
+    "sizeBytes": 707720,
+    "thumbnailSizeBytes": 119677,
+    "submittedAt": "2026-08-05T19:32:24.007Z",
+    "deployedAt": "2026-08-12T01:20:19.344Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T01:20:19.344Z"
+  },
+  "dryRun": false
+}
