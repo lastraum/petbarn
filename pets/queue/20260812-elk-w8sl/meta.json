@@ -1,0 +1,18 @@
+{
+  "id": "20260812-elk-w8sl",
+  "action": "update",
+  "targetId": "20260805-elk-iti0",
+  "auth": {
+    "signature": "0xecad1ead25f76c1a6ce8c93ad6fd638b71287f616c053f1621f41feeacb5d3632aeb6d274b4219b45e85a96e07955146edefc03790d9dfccd10506e44c03a7c21b",
+    "timestampMs": 1786496419197,
+    "glbSha256": "9b869cefc640be58e91316ef15ac40c18922dd3c37f1ea5f9ca1b0c07ba946ce"
+  },
+  "petName": "Elk",
+  "creatorName": "AwedJob",
+  "type": "walking",
+  "sizeBytes": 545792,
+  "thumbnailSizeBytes": 87093,
+  "submittedAt": "2026-08-12T01:00:25.948Z",
+  "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "clientVersion": "1.7.0"
+}
