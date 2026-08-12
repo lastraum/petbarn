@@ -2,7 +2,7 @@
   "version": 1,
   "world": "petbarn.dcl.eth",
   "contentBaseUrl": "https://worlds-content-server.decentraland.org/contents/",
-  "updatedAt": "2026-08-12T01:12:41.083Z",
+  "updatedAt": "2026-08-12T01:14:26.695Z",
   "nextParcel": {
     "x": -52,
     "y": -150
@@ -1222,14 +1222,15 @@
       ],
       "parcel": "-99,-150",
       "glbFile": "models/pet.glb",
-      "glbCid": "bafybeibshikc3wtd3vpkvdzqqgz6vzbwshu4x3efvmzblq5rbzuw45gs64",
-      "thumbnailFile": "models/thumb.webp",
-      "thumbnailCid": "bafkreibp3oulpqyq72lbyytlgbfmviep6lbd4dfdvqt5oqhmwsdg3xftu4",
-      "sizeBytes": 299784,
-      "thumbnailSizeBytes": 10842,
+      "glbCid": "bafybeicw2uy4xchhg2kd73cgi5dywwazsr7m3thva52iovhlyy5ozju5lq",
+      "thumbnailFile": "models/thumb.png",
+      "thumbnailCid": "bafkreifucg6pmzjywdvgifz4tdfqsh3ridofewgogc3ztgbq7jggwbbaca",
+      "sizeBytes": 299812,
+      "thumbnailSizeBytes": 147202,
       "submittedAt": "2026-08-05T19:30:14.913Z",
-      "deployedAt": "2026-08-05T19:31:05.749Z",
-      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64"
+      "deployedAt": "2026-08-12T01:14:26.695Z",
+      "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+      "updatedAt": "2026-08-12T01:14:26.695Z"
     },
     {
       "id": "20260805-hermit-crab-p1f7",

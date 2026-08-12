@@ -1,0 +1,29 @@
+{
+  "action": "update",
+  "targetId": "20260805-hamster-cak1",
+  "authorizedBy": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+  "entry": {
+    "id": "20260805-hamster-cak1",
+    "petName": "Hamster",
+    "creatorName": "AwedJob",
+    "type": "walking",
+    "animationCount": 3,
+    "clipNames": [
+      "Idle",
+      "Run",
+      "Walk"
+    ],
+    "parcel": "-99,-150",
+    "glbFile": "models/pet.glb",
+    "glbCid": "bafybeicw2uy4xchhg2kd73cgi5dywwazsr7m3thva52iovhlyy5ozju5lq",
+    "thumbnailFile": "models/thumb.png",
+    "thumbnailCid": "bafkreifucg6pmzjywdvgifz4tdfqsh3ridofewgogc3ztgbq7jggwbbaca",
+    "sizeBytes": 299812,
+    "thumbnailSizeBytes": 147202,
+    "submittedAt": "2026-08-05T19:30:14.913Z",
+    "deployedAt": "2026-08-12T01:14:26.695Z",
+    "wallet": "0xe1eedbd1e08478707c794e7e8b1ee623f5fa6d64",
+    "updatedAt": "2026-08-12T01:14:26.695Z"
+  },
+  "dryRun": false
+}
